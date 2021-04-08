@@ -12,8 +12,6 @@
 	<img src="https://svg.hamm.cn/badge.svg?key=Platform&value=微信小程序"/>
 </p>
 
-<h1 align="center">《前端铺子》· 开源啦~ </h1>
-
 <div align="center">
 
 
