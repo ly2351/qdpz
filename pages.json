@@ -210,6 +210,12 @@
 				"style": {
 					"navigationBarTitleText": "悬浮球"
 				}
+			},
+			{
+				"path": "timetables",
+				"style": {
+					"navigationBarTitleText": "课程表"
+				}
 			}
 		]
 	}],
