@@ -161,6 +161,11 @@
 						color: ''
 					},
 					{
+						title: 'timetables',
+						name: '课程表',
+						color: ''
+					},
+					{
 						title: 'drag_demo/index',
 						name: '悬浮球',
 						color: ''
@@ -676,6 +681,10 @@
 
 	.bg-kuxuan13 {
 		color: #fff;
-		background-color: #35e6c0;
+		background-color: #1cbbb4;
+	}
+	.bg-kuxuan14 {
+		color: #fff;
+		background-color: #a5673f;
 	}
 </style>

@@ -214,6 +214,7 @@
 			{
 				"path": "timetables",
 				"style": {
+					"navigationStyle": "custom",
 					"navigationBarTitleText": "课程表"
 				}
 			}

@@ -3256,6 +3256,9 @@ scroll-view.cu-steps .cu-item {
 .padding-left-xl {
 	padding-left: 50upx;
 }
+.padding-left-xxl {
+	padding-left: 80upx;
+}
 
 .padding-lr-xs {
 	padding-left: 10upx;

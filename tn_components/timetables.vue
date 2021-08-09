@@ -7,14 +7,52 @@
 		</cu-custom>
 		
 		<scroll-view scroll-x class="bg-white nav" scroll-with-animation :scroll-left="scrollLeft">
-			<view class="cu-item" :class="index == TabCur?'text-blue cur':''" v-for="(item,index) in navTop" :key="index" @tap="tabSelect"
-			 :data-id="index">
-				{{item.title}}
+			<view class="flex text-center">
+				<view class="cu-item flex-sub" :class="index == TabCur?'text-blue cur':''" v-for="(item,index) in navTop" :key="index" @tap="tabSelect"
+				 :data-id="index">
+					{{item.title}}
+				</view>
 			</view>
 		</scroll-view>
 
 		<view class="container">
-			
+			<!-- 中小学课程 UI样式 -->
+			<view>
+				<view class="flex p-xs mb-sm padding-left-xxl">
+					<view class="flex-sub bg-grey padding-sm margin-xs radius">1</view>
+					<view class="flex-sub bg-grey padding-sm margin-xs radius">2</view>
+					<view class="flex-sub bg-grey padding-sm margin-xs radius">3</view>
+					<view class="flex-sub bg-grey padding-sm margin-xs radius">3</view>
+					<view class="flex-sub bg-grey padding-sm margin-xs radius">3</view>
+				</view>
+				
+				<view class="bg-white">
+					<view class="flex solid-bottom align-start">
+						<view class="" style="width: 80rpx;line-height: 90rpx;text-align: center;">1</view>
+						<view class="flex-sub bg-grey padding-sm margin-xs radius">3</view>
+						<view class="flex-sub bg-grey padding-sm margin-xs radius">3</view>
+						<view class="flex-sub bg-grey padding-sm margin-xs radius">3</view>
+						<view class="flex-sub bg-grey padding-sm margin-xs radius">3</view>
+						<view class="flex-sub bg-grey padding-sm margin-xs radius">3</view>
+					</view>
+					<view class="flex solid-bottom align-start">
+						<view class="" style="width: 80rpx;line-height: 45px;text-align: center;">2</view>
+						<view class="flex-sub bg-grey padding-sm margin-xs radius">3</view>
+						<view class="flex-sub bg-grey padding-sm margin-xs radius">3</view>
+						<view class="flex-sub bg-grey padding-sm margin-xs radius">3</view>
+						<view class="flex-sub bg-grey padding-sm margin-xs radius">3</view>
+						<view class="flex-sub bg-grey padding-sm margin-xs radius">3</view>
+					</view>
+					<view class="flex solid-bottom align-start">
+						<view class="" style="width: 80rpx;line-height: 45px;text-align: center;">3</view>
+						<view class="flex-sub bg-grey padding-sm margin-xs radius">3</view>
+						<view class="flex-sub bg-grey padding-sm margin-xs radius">3</view>
+						<view class="flex-sub bg-grey padding-sm margin-xs radius">3</view>
+						<view class="flex-sub bg-grey padding-sm margin-xs radius">3</view>
+						<view class="flex-sub bg-grey padding-sm margin-xs radius">3</view>
+					</view>
+				</view>
+			</view>
 		</view>
 	</view>
 </template>
