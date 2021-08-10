@@ -51,13 +51,6 @@
 			}
 		},
 		{
-			"path": "pages/me/course",
-			"style": {
-				"navigationBarTitleText": "班级课程",
-				"navigationStyle": "custom"
-			}
-		},
-		{
 			"path": "pages/video",
 			"style": {
 				"navigationBarTitleText": "视频播放",
@@ -164,6 +157,20 @@
 				"style": {
 					"navigationStyle": "custom",
 					"navigationBarTitleText": "便捷查询"
+				}
+			},
+			{
+				"path": "salary",
+				"style": {
+					"navigationBarTitleText": "排行榜",
+					"navigationStyle": "custom"
+				}
+			},
+			{
+				"path": "course",
+				"style": {
+					"navigationBarTitleText": "班级课程",
+					"navigationStyle": "custom"
 				}
 			},
 			{

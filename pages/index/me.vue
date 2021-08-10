@@ -69,17 +69,17 @@
 		<block>
 			<view class='padding flex text-center text-grey bg-white shadow-warp-my'>
 				<view class='flex flex-sub flex-direction solid-right'>
-					<view class="text-xxl text-orange">6500+</view>
+					<view class="text-xxl text-orange">7.5k+</view>
 					<view class="margin-top-sm">
 						<text class='cuIcon-hot'></text> 访客</view>
 				</view>
 				<view class='flex flex-sub flex-direction solid-right'>
-					<view class="text-xxl text-blue">1053</view>
+					<view class="text-xxl text-blue">1.1k+</view>
 					<view class="margin-top-sm">
 						<text class='cuIcon-share'></text> 分享</view>
 				</view>
 				<view class='flex flex-sub flex-direction'>
-					<view class="text-xxl text-red">665</view>
+					<view class="text-xxl text-red">1k+</view>
 					<view class="margin-top-sm">
 						<text class='cuIcon-like'></text> 点赞</view>
 				</view>
@@ -151,7 +151,7 @@
 
 			<view class="cu-list menu card-menu margin-top-lg margin-bottom-lg shadow-shop bg-white text-black my-radius sm-border">
 
-				<view class="cu-item ">
+				<!-- <view class="cu-item ">
 					<button class='content cu-btn' @click="goSalary">
 						<image src='../../static/me/icon/jisuanqi.png' class='png' mode='aspectFit'></image>
 						<text class='text-lg margin-sm'>薪资排名</text>
@@ -162,7 +162,7 @@
 						<image src='../../static/me/icon/youjian.png' class='png' mode='aspectFit'></image>
 						<text class='text-lg margin-sm'>课班信息</text>
 					</button>
-				</view>
+				</view> -->
 
 				<view class="cu-item ">
 					<button class='content cu-btn' open-type="contact">
@@ -340,17 +340,17 @@
 				})
 			},
 			// 薪资排名
-			goSalary() {
-				uni.navigateTo({
-					url: '../me/salary'
-				})
-			},
-			// 课班信息
-			goCourse() {
-				uni.navigateTo({
-					url: '../me/course'
-				})
-			}
+			// goSalary() {
+			// 	uni.navigateTo({
+			// 		url: '../me/salary'
+			// 	})
+			// },
+			// // 课班信息
+			// goCourse() {
+			// 	uni.navigateTo({
+			// 		url: '../me/course'
+			// 	})
+			// }
 		}
 	}
 </script>

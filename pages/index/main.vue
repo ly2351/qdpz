@@ -166,7 +166,28 @@
 						color: ''
 					}
 				],
-				yangshi: [{
+				yangshi: [
+					{
+						title: 'discern',
+						name: '证件识别',
+						color: ''
+					},
+					{
+						title: 'salary',
+						name: '排行榜',
+						color: ''
+					},
+					{
+						title: 'course',
+						name: '课班信息',
+						color: ''
+					},
+					{
+						title: 'timetables',
+						name: '课程表',
+						color: ''
+					},
+					{
 						title: 'bggrad',
 						name: '渐变动画',
 						color: ''
@@ -174,16 +195,6 @@
 					{
 						title: 'bgcolor',
 						name: '纯色过渡',
-						color: ''
-					},
-					{
-						title: 'discern',
-						name: '证件识别',
-						color: ''
-					},
-					{
-						title: 'timetables',
-						name: '课程表',
 						color: ''
 					},
 					{
@@ -617,6 +628,15 @@
 		background-color: #9c26b0;
 		color: #fff;
 	}
+	.bg-exper7 {
+		background-color: #8799a3;
+		color: #fff;
+	}
+	.bg-exper8 {
+		background-color: #00c4fb;
+		color: #fff;
+	}
+	
 
 	/*  */
 	.bg-kuxuan1 {
