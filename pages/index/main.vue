@@ -20,7 +20,7 @@
 
 		<view class="title-header">
 			<view class="title-text">
-				样 / 式 / 组 / 件
+				样 / 式 / 模 / 板
 			</view>
 		</view>
 
@@ -179,7 +179,7 @@
 					},
 					{
 						title: 'course',
-						name: '课班信息',
+						name: '数据列表',
 						color: ''
 					},
 					{
