@@ -136,11 +136,6 @@
 						color: ''
 					},
 					{
-						title: 'discern',
-						name: '证件识别',
-						color: ''
-					},
-					{
 						title: 'keyboard',
 						name: '自定义键盘',
 						color: ''
@@ -158,11 +153,6 @@
 					{
 						title: 'pano',
 						name: 'webview地图轨迹',
-						color: ''
-					},
-					{
-						title: 'timetables',
-						name: '课程表',
 						color: ''
 					},
 					{
@@ -184,6 +174,16 @@
 					{
 						title: 'bgcolor',
 						name: '纯色过渡',
+						color: ''
+					},
+					{
+						title: 'discern',
+						name: '证件识别',
+						color: ''
+					},
+					{
+						title: 'timetables',
+						name: '课程表',
 						color: ''
 					},
 					{

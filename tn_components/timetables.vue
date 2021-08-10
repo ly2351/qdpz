@@ -6,52 +6,104 @@
 			<block slot="content">课程表</block>
 		</cu-custom>
 		
-		<scroll-view scroll-x class="bg-white nav" scroll-with-animation :scroll-left="scrollLeft">
-			<view class="flex text-center">
-				<view class="cu-item flex-sub" :class="index == TabCur?'text-blue cur':''" v-for="(item,index) in navTop" :key="index" @tap="tabSelect"
-				 :data-id="index">
-					{{item.title}}
-				</view>
-			</view>
-		</scroll-view>
-
 		<view class="container">
-			<!-- 中小学课程 UI样式 -->
 			<view>
-				<view class="flex p-xs mb-sm padding-left-xxl">
-					<view class="flex-sub bg-grey padding-sm margin-xs radius">1</view>
-					<view class="flex-sub bg-grey padding-sm margin-xs radius">2</view>
-					<view class="flex-sub bg-grey padding-sm margin-xs radius">3</view>
-					<view class="flex-sub bg-grey padding-sm margin-xs radius">3</view>
-					<view class="flex-sub bg-grey padding-sm margin-xs radius">3</view>
+				<!-- 顶部星期 -->
+				<view class="flex p-xs mb-sm padding-left-xxl bg-gray">
+					<view class="solid-left flex-sub text-grey padding-tb-sm margin-lr-xs text-center">星期一</view>
+					<view class="flex-sub text-grey padding-tb-sm margin-lr-xs text-center">星期二</view>
+					<view class="flex-sub text-grey padding-tb-sm margin-lr-xs text-center">星期三</view>
+					<view class="flex-sub text-grey padding-tb-sm margin-lr-xs text-center">星期四</view>
+					<view class="flex-sub text-grey padding-tb-sm margin-lr-xs text-center">星期五</view>
+				</view>
+				<!-- 左侧节数 -->
+				<view class="bg-gray solid-top leftNum">
+					<view class="flex align-start">
+						<view class="flex-sub text-grey padding-sm text-center margin-xs">一</view>
+					</view>
+					<view class="flex align-start">
+						<view class="flex-sub text-grey padding-sm text-center margin-xs">二</view>
+					</view>
+					<view class="flex align-start">
+						<view class="flex-sub text-grey padding-sm text-center margin-xs">三</view>
+					</view>
+					<view class="flex align-start">
+						<view class="flex-sub text-grey padding-sm text-center margin-xs">四</view>
+					</view>
+				</view>
+				
+				<!-- 早上课程 -->
+				<view class="bg-white">
+					<view class="flex solid-bottom align-start">
+						<view class="flex-sub bg-gradual-orange padding-sm text-center margin-xs radius">语文</view>
+						<view class="flex-sub bg-gradual-blue padding-sm text-center margin-xs radius">数学</view>
+						<view class="flex-sub bg-gradual-green padding-sm text-center margin-xs radius">微机</view>
+						<view class="flex-sub bg-gradual-pink padding-sm text-center margin-xs radius">体育</view>
+						<view class="flex-sub bg-gradual-purple padding-sm text-center margin-xs radius">地理</view>
+					</view>
+					<view class="flex solid-bottom align-start">
+						<view class="flex-sub bg-gradual-orange padding-sm text-center margin-xs radius">化学</view>
+						<view class="flex-sub bg-gradual-blue padding-sm text-center margin-xs radius">语文</view>
+						<view class="flex-sub bg-gradual-green padding-sm text-center margin-xs radius">物理</view>
+						<view class="flex-sub bg-gradual-pink padding-sm text-center margin-xs radius">英语</view>
+						<view class="flex-sub bg-gradual-purple padding-sm text-center margin-xs radius">生物</view>
+					</view>
+					<view class="flex solid-bottom align-start">
+						<view class="flex-sub bg-gradual-orange padding-sm text-center margin-xs radius">英语</view>
+						<view class="flex-sub bg-gradual-blue padding-sm text-center margin-xs radius">生物</view>
+						<view class="flex-sub bg-gradual-green padding-sm text-center margin-xs radius">体育</view>
+						<view class="flex-sub bg-gradual-pink padding-sm text-center margin-xs radius">音乐</view>
+						<view class="flex-sub bg-gradual-purple padding-sm text-center margin-xs radius">数学</view>
+					</view>
+					<view class="flex solid-bottom align-start">
+						<view class="flex-sub bg-gradual-orange padding-sm text-center margin-xs radius">物理</view>
+						<view class="flex-sub bg-gradual-blue padding-sm text-center margin-xs radius">地理</view>
+						<view class="flex-sub bg-gradual-green padding-sm text-center margin-xs radius">历史</view>
+						<view class="flex-sub bg-gradual-pink padding-sm text-center margin-xs radius">化学</view>
+						<view class="flex-sub bg-gradual-purple padding-sm text-center margin-xs radius">语文</view>
+					</view>
+				</view>
+				
+				<!-- 午休 -->
+				<view class="bg-gray text-grey solid-top solid-bottom centerBox text-center">午休时间</view>
+				
+				<!-- 左侧节数 -->
+				<view class="bg-gray solid-top leftNum">
+					<view class="flex align-start">
+						<view class="flex-sub text-grey padding-sm text-center margin-xs">四</view>
+					</view>
+					<view class="flex align-start">
+						<view class="flex-sub text-grey padding-sm text-center margin-xs">五</view>
+					</view>
+					<view class="flex align-start">
+						<view class="flex-sub text-grey padding-sm text-center margin-xs">六</view>
+					</view>
 				</view>
 				
 				<view class="bg-white">
 					<view class="flex solid-bottom align-start">
-						<view class="" style="width: 80rpx;line-height: 90rpx;text-align: center;">1</view>
-						<view class="flex-sub bg-grey padding-sm margin-xs radius">3</view>
-						<view class="flex-sub bg-grey padding-sm margin-xs radius">3</view>
-						<view class="flex-sub bg-grey padding-sm margin-xs radius">3</view>
-						<view class="flex-sub bg-grey padding-sm margin-xs radius">3</view>
-						<view class="flex-sub bg-grey padding-sm margin-xs radius">3</view>
+						<view class="flex-sub bg-gradual-orange padding-sm text-center margin-xs radius">体育</view>
+						<view class="flex-sub bg-gradual-blue padding-sm text-center margin-xs radius">音乐</view>
+						<view class="flex-sub bg-gradual-green padding-sm text-center margin-xs radius">历史</view>
+						<view class="flex-sub bg-gradual-pink padding-sm text-center margin-xs radius">生物</view>
+						<view class="flex-sub bg-gradual-purple padding-sm text-center margin-xs radius">地理</view>
 					</view>
 					<view class="flex solid-bottom align-start">
-						<view class="" style="width: 80rpx;line-height: 45px;text-align: center;">2</view>
-						<view class="flex-sub bg-grey padding-sm margin-xs radius">3</view>
-						<view class="flex-sub bg-grey padding-sm margin-xs radius">3</view>
-						<view class="flex-sub bg-grey padding-sm margin-xs radius">3</view>
-						<view class="flex-sub bg-grey padding-sm margin-xs radius">3</view>
-						<view class="flex-sub bg-grey padding-sm margin-xs radius">3</view>
+						<view class="flex-sub bg-gradual-orange padding-sm text-center margin-xs radius">化学</view>
+						<view class="flex-sub bg-gradual-blue padding-sm text-center margin-xs radius">语文</view>
+						<view class="flex-sub bg-gradual-green padding-sm text-center margin-xs radius">物理</view>
+						<view class="flex-sub bg-gradual-pink padding-sm text-center margin-xs radius">英语</view>
+						<view class="flex-sub bg-gradual-purple padding-sm text-center margin-xs radius">生物</view>
 					</view>
 					<view class="flex solid-bottom align-start">
-						<view class="" style="width: 80rpx;line-height: 45px;text-align: center;">3</view>
-						<view class="flex-sub bg-grey padding-sm margin-xs radius">3</view>
-						<view class="flex-sub bg-grey padding-sm margin-xs radius">3</view>
-						<view class="flex-sub bg-grey padding-sm margin-xs radius">3</view>
-						<view class="flex-sub bg-grey padding-sm margin-xs radius">3</view>
-						<view class="flex-sub bg-grey padding-sm margin-xs radius">3</view>
+						<view class="flex-sub bg-gradual-orange padding-sm text-center margin-xs radius">英语</view>
+						<view class="flex-sub bg-gradual-blue padding-sm text-center margin-xs radius">生物</view>
+						<view class="flex-sub bg-gradual-green padding-sm text-center margin-xs radius">体育</view>
+						<view class="flex-sub bg-gradual-pink padding-sm text-center margin-xs radius">音乐</view>
+						<view class="flex-sub bg-gradual-purple padding-sm text-center margin-xs radius">数学</view>
 					</view>
 				</view>
+				
 			</view>
 		</view>
 	</view>
@@ -61,18 +113,7 @@
 	export default {
 		data() {
 			return {
-				TabCur: 0,
-				scrollLeft: 0,
-				navTop:[
-					{
-						id: 0,
-						title: '大学课程'
-					},
-					{
-						id: 1,
-						title: '中小学课程'
-					}
-				]
+				
 			}
 		},
 		watch: {
@@ -85,10 +126,7 @@
 
 		},
 		methods: {
-			tabSelect(e) {
-				this.TabCur = e.currentTarget.dataset.id;
-				this.scrollLeft = (e.currentTarget.dataset.id - 1) * 60
-			},
+			
 		}
 	}
 </script>
@@ -96,5 +134,14 @@
 <style lang="scss" scoped>
 	.container {
 		height: 100%;
+		.leftNum{
+			width: 90rpx;
+			float: left;
+		}
+		.centerBox{
+			width: 750rpx;
+			height: 74rpx;
+			line-height: 74rpx;
+		}
 	}
 </style>
