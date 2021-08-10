@@ -74,12 +74,12 @@
 						<text class='cuIcon-hot'></text> 访客</view>
 				</view>
 				<view class='flex flex-sub flex-direction solid-right'>
-					<view class="text-xxl text-blue">1.1k+</view>
+					<view class="text-xxl text-blue">963</view>
 					<view class="margin-top-sm">
 						<text class='cuIcon-share'></text> 分享</view>
 				</view>
 				<view class='flex flex-sub flex-direction'>
-					<view class="text-xxl text-red">1k+</view>
+					<view class="text-xxl text-red">1.1k+</view>
 					<view class="margin-top-sm">
 						<text class='cuIcon-like'></text> 点赞</view>
 				</view>
