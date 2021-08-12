@@ -12,7 +12,7 @@
 	<img src="https://svg.hamm.cn/badge.svg?key=Platform&value=微信小程序"/>
 </p>
 
-<h1 align="center">《前端铺子》· 开源啦，易上手~ </h1>
+<h1 align="center">《前端铺子》· 开源，易上手~ </h1>
 
 <div align="center">
 
@@ -21,7 +21,7 @@
 <p>基于uni-app、colorUi、uView，支持小程序、H5、Android和IOS</p>
 
 ```
-如果觉得对你有用，随手点个 🌟 Star 🌟 支持下，这样才有持续下去的动力，谢谢！～
+🕙 项目基本保持每日更新，随手点个 🌟 Star 🌟 关注，这样才有持续下去的动力，谢谢！～
 ```
 
 </div>
