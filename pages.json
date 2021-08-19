@@ -224,6 +224,12 @@
 					"navigationStyle": "custom",
 					"navigationBarTitleText": "课程表"
 				}
+			},
+			{
+				"path": "imageEditor",
+				"style": {
+					"navigationBarTitleText": "图片编辑器"
+				}
 			}
 		]
 	}],

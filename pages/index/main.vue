@@ -17,6 +17,18 @@
 				<view class="nav-name">{{item.name}}</view>
 			</navigator>
 		</view>
+		
+		<view class="title-header">
+			<view class="title-text">
+				付 / 费 / 组 / 件
+			</view>
+		</view>
+		<view class='nav-list margin-top'>
+			<navigator open-type="navigate" hover-class='none' :url="'/tn_components/' + item.title"
+				:class="'nav-li bg-index' + (index+1)" v-for="(item, index) in fufei" :key="index">
+				<view class="nav-name">{{item.name}}</view>
+			</navigator>
+		</view>
 
 		<view class="title-header">
 			<view class="title-text">
@@ -30,7 +42,7 @@
 				<view class="nav-name">{{item.name}}</view>
 			</navigator>
 		</view>
-
+		
 		<view class="title-header">
 			<view class="title-text">
 				设 / 计 / 模 / 版
@@ -205,6 +217,13 @@
 					{
 						title: 'anloading',
 						name: '加载动画',
+						color: ''
+					}
+				],
+				fufei:[
+					{
+						title: 'imageEditor',
+						name: '图片编辑器',
 						color: ''
 					}
 				]
