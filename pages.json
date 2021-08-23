@@ -86,6 +86,12 @@
 			"style": {
 				"navigationStyle": "custom"
 			}
+		},
+		{
+			"path": "pages/main/customCamera",
+			"style": {
+				"navigationBarTitleText": "自定义相机/图片编辑器"
+			}
 		}
 	],
 	"subPackages": [{

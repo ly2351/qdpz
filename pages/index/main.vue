@@ -24,7 +24,7 @@
 			</view>
 		</view>
 		<view class='nav-list margin-top'>
-			<navigator open-type="navigate" hover-class='none' :url="'/tn_components/' + item.title"
+			<navigator open-type="navigate" hover-class='none' :url="'../main/' + item.title"
 				:class="'nav-li bg-index' + (index+1)" v-for="(item, index) in fufei" :key="index">
 				<view class="nav-name">{{item.name}}</view>
 			</navigator>
@@ -222,7 +222,7 @@
 				],
 				fufei:[
 					{
-						title: 'imageEditor',
+						title: 'customCamera',
 						name: '图片编辑器',
 						color: ''
 					}
