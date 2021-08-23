@@ -66,16 +66,8 @@
 			}
 		},
 		onShow() {
-
 			this.getTime();
-			// const that = this;
 			var qqmapsdk;
-			// uni.getSystemInfo({
-			// 	success: function(res) {
-			// 		that.getHeight = res.windowHeight;
-			// 		console.log(res, "res")
-			// 	}
-			// });
 			var that = this;
 			uni.getLocation({
 				type: 'wgs84',
@@ -146,44 +138,10 @@
 						// const tempFilePaths = res.tempFilePaths;
 					}
 				});
-				// uni.uploadFile({
-				// 	url: 'https://www.cailanzi001.com/api/v1/qiniu/upload/img', //服务器地址
-				// 	fileType: "image", //ZFB必填,不然报错
-				// 	filePath: tempFilePaths[0], //这个就是我们上面拍照返回或者先中照片返回的数组
-				// 	name: 'imgFile',
-				// 	success: (uploadFileRes) => {
-				// 		let imgData = JSON.parse(uploadFileRes.data)
-				// 		console.log(imgData.data.imgUrl);
-				// 		console.log(this);
-				// 		this.imgDataUrl = imgData.data.imgUrl
-				// 	}
-				// });
 			},
 			// 点击拍照
 			takePhoto() {
-				// console.log('拍照');
-				// uni.chooseImage({
-				// 	count: 1,
-				// 	sizeType: ['original', 'compressed'],
-				// 	sourceType: ['album'], //这要注意，camera掉拍照，album是打开手机相册
-				// 	success: (res) => {
 				const ctx = uni.createCameraContext();
-				// ctx.startRecord({
-				// 	quality: 'high',
-				// 	success: (res) => {
-				// 		console.log(res, '开始视频视频')
-				// 		setTimeout(function() {
-				// 			ctx.stopRecord({
-				// 				success(res) {
-				// 					console.log("结束", res, res.tempVideoPath)
-				// 					// that.setData({
-				// 					// 	tempVideoPath: res.tempVideoPath
-				// 					// })
-				// 				}
-				// 			})
-				// 		}, 6000)
-				// 	}
-				// })
 				ctx.takePhoto({
 					quality: 'high',
 					success: (res) => {
@@ -246,11 +204,6 @@
 					this.sgdUrl = 'https://cdn.zhoukaiwen.com/sgd.png'
 				}
 			},
-
-
-
-
-
 		},
 
 		/**
@@ -389,107 +342,4 @@
 			line-height: 150rpx;
 		}
 	}
-
-	// .bottomBg {
-	// 	width: 100%;
-	// 	height: 170rpx;
-	// 	box-sizing: border-box;
-	// 	padding: 20rpx 30rpx 40rpx;
-	// 	position: absolute;
-	// 	bottom: 0;
-	// 	left: 0;
-	// 	background-color: rgba(0, 0, 0, .8);
-	// 	display: flex;
-	// 	justify-content: space-between;
-	// 	align-items: center;
-
-	// 	.imgBox {
-	// 		width: 110rpx;
-	// 		height: 110rpx;
-	// 		float: left;
-	// 		margin-right: 40rpx;
-	// 		position: relative;
-
-	// 		.cu-tag {
-	// 			position: absolute;
-	// 			right: 0;
-	// 			top: 0;
-	// 			border-bottom-left-radius: 2px;
-	// 			padding: 3px 5px;
-	// 			height: auto;
-	// 			background-color: rgba(0, 0, 0, 0.5);
-	// 			font-size: 10px;
-	// 			vertical-align: middle;
-	// 			font-family: Helvetica Neue, Helvetica, sans-serif;
-	// 			white-space: nowrap;
-	// 			color: #ffffff;
-	// 		}
-	// 	}
-
-	// 	.imgItem {
-	// 		width: 110rpx;
-	// 		height: 110rpx;
-	// 	}
-	// }
-
-	// .report {
-	// 	height: 68rpx;
-	// 	line-height: 68rpx;
-	// 	text-align: center;
-	// 	color: #FFFFFF;
-	// 	box-sizing: border-box;
-	// 	padding: 0rpx 20rpx;
-	// 	border-radius: 10rpx;
-	// 	background-color: #2157FF;
-	// }
-
-	// .iconClose {
-	// 	width: 20rpx;
-	// 	height: 20rpx;
-	// }
-
-	// .reportBox {
-	// 	width: 750rpx;
-	// 	height: auto;
-	// 	box-sizing: border-box;
-	// 	padding: 10rpx 20rpx;
-	// 	background-color: #FFFFFF;
-	// 	position: absolute;
-	// 	bottom: 0;
-	// }
-
-	// .listBox {
-	// 	display: flex;
-	// 	flex-wrap: wrap;
-	// 	justify-content: space-around;
-
-	// }
-
-	// .item {
-	// 	width: 160rpx;
-	// 	height: 68rpx;
-	// 	line-height: 68rpx;
-	// 	text-align: center;
-	// 	background: #F7F7F9;
-	// 	margin-bottom: 40rpx;
-	// 	color: #888888;
-
-	// }
-
-	// .active {
-	// 	background-color: #F1F7FF;
-	// 	color: #025ADD;
-	// }
-
-	// .repBtn {
-	// 	width: 680rpx;
-	// 	height: 78rpx;
-	// 	line-height: 78rpx;
-	// 	background-color: #025ADD;
-	// 	color: #FFFFFF;
-	// 	font-size: 33rpx;
-	// 	text-align: center;
-	// 	border-radius: 10rpx;
-	// 	margin: 5rpx auto 20rpx;
-	// }
 </style>
