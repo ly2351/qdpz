@@ -20,18 +20,6 @@
 		
 		<view class="title-header">
 			<view class="title-text">
-				付 / 费 / 组 / 件
-			</view>
-		</view>
-		<view class='nav-list margin-top'>
-			<navigator open-type="navigate" hover-class='none' :url="'../main/' + item.title"
-				:class="'nav-li bg-index' + (index+1)" v-for="(item, index) in fufei" :key="index">
-				<view class="nav-name">{{item.name}}</view>
-			</navigator>
-		</view>
-
-		<view class="title-header">
-			<view class="title-text">
 				样 / 式 / 模 / 板
 			</view>
 		</view>
@@ -52,6 +40,18 @@
 		<view class='nav-list margin-top'>
 			<navigator open-type="navigate" hover-class='none' :url="'../design?type=' + index"
 				:class="'nav-li bg-index' + (index+1)" v-for="(item, index) in Template" :key="index">
+				<view class="nav-name">{{item.name}}</view>
+			</navigator>
+		</view>
+		
+		<view class="title-header">
+			<view class="title-text">
+				付 / 费 / 组 / 件
+			</view>
+		</view>
+		<view class='nav-list margin-top'>
+			<navigator open-type="navigate" hover-class='none' :url="'../main/' + item.title"
+				:class="'nav-li bg-index' + (index+1)" v-for="(item, index) in fufei" :key="index">
 				<view class="nav-name">{{item.name}}</view>
 			</navigator>
 		</view>
@@ -659,6 +659,10 @@
 	.bg-exper8 {
 		background-color: #00c4fb;
 		color: #fff;
+	}
+	.bg-exper9 {
+		color: #fff;
+		background-color: #FFC32E;
 	}
 	
 
