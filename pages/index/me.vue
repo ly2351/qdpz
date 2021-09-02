@@ -37,7 +37,7 @@
 			</view>
 		</view>
 		<!-- 顶部背景 -->
-		<view class='UCenter-bg' :style="'background-image: url(' + pic[topBackGroupImageIndex].link + ');margin-top:-' + CustomBar + 'px;'">
+		<view class='UCenter-bg' :style="'background-image: url(' + pic[topBackGroupImageIndex].link + ');margin-top:' + CustomBar + 'px;'">
 			<view class='space' v-show="spaceShow">
 				<view class="stars ">
 					<view class="star "></view>

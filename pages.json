@@ -236,6 +236,13 @@
 				"style": {
 					"navigationBarTitleText": "图片编辑器"
 				}
+			},
+			{
+				"path": "clock",
+				"style": {
+					"navigationStyle": "custom",
+					"navigationBarTitleText": "每日签到"
+				}
 			}
 		]
 	}],

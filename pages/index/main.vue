@@ -195,6 +195,11 @@
 						color: ''
 					},
 					{
+						title: 'clock',
+						name: '每日签到',
+						color: ''
+					},
+					{
 						title: 'timetables',
 						name: '课程表',
 						color: ''
