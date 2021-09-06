@@ -243,6 +243,13 @@
 					"navigationStyle": "custom",
 					"navigationBarTitleText": "每日签到"
 				}
+			},
+			{
+				"path": "medal",
+				"style": {
+					"navigationStyle": "custom",
+					"navigationBarTitleText": "权益页面"
+				}
 			}
 		]
 	}],

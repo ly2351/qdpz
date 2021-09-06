@@ -48,10 +48,7 @@
 			</view>
 
 			<block>
-				<view class='text-center'>
-					<!-- <view class="cu-avatar2 round margin-right-sm shadow-blur bg-img" style="background-image:url(http://cdn.zhoukaiwen.com/head1.jpg);">
-					</view> -->
-
+				<view class='text-center' @click="goMedal">
 					<view class="cu-avatar2 round xl margin-right-sm shadow-blur-lg bg-img open-data" style="overflow: hidden;">
 						<open-data type="userAvatarUrl"></open-data>
 					</view>
@@ -332,6 +329,11 @@
 				uni.makePhoneCall({
 					phoneNumber: "18629591093",
 				});
+			},
+			goMedal(){
+				uni.navigateTo({
+					url: '../../tn_components/medal'
+				})
 			},
 			// 关于作者
 			goAboutMe() {
