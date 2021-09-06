@@ -1,43 +1,45 @@
 <template>
 	<view class="warp">
-		<cu-custom bgColor="bg-gradual-blue" :isBack="false">
-			<!-- <block slot="backText">返回</block> -->
+		<cu-custom bgColor="bg-1a1a1a" :isBack="false">
+			<block slot="backText">返回</block>
 			<block slot="content">会员中心</block>
 		</cu-custom>
 		
 		<swiper class="swiper">
 			<swiper-item  v-for="(items,indexs) in levelList" :key="indexs">
-				<view class="progress b-card" :class="{'b-level-1': items.level === 1,
-				'b-level-2': items.level === 2,'b-level-3': items.level === 3,'b-level-4': items.level === 4}">
-					<view class="heard">
-						一级会员
-					</view>
-					<view class="title">
-						这是一段描述：感谢您支持开源项目！
-					</view>
-					<view class="progress-artice">
-						<view class="outer">
-							<view class="inside" :style="{'width': items.ratio+'%'}">
-								
-							</view>
+				<div class="topBg">
+					<view class="progress b-card" :class="{'b-level-1': items.level === 1,
+					'b-level-2': items.level === 2,'b-level-3': items.level === 3,'b-level-4': items.level === 4}">
+						<view class="heard">
+							尊贵会员
 						</view>
-						<view class="content">
-							<view class="content-item" :style="{'flex':item.flex}" v-for="(item,index) in items.list" :key="index">
-								<view class="rangle">
-									<view class="rangle-text" v-show="index<items.list.length-1"></view>
-									<image class="rangle-gift" src="https://zhoukaiwen.com/img/medal/icon-medal-gift.png" mode="" v-show="index == items.list.length-1"></image>
-								</view>
-								<view class="level">
-									{{item.name}}
+						<view class="title">
+							这是一段描述：感谢您支持开源项目！
+						</view>
+						<view class="progress-artice">
+							<view class="outer">
+								<view class="inside" :style="{'width': items.ratio+'%'}">
+									
 								</view>
 							</view>
+							<view class="content">
+								<view class="content-item" :style="{'flex':item.flex}" v-for="(item,index) in items.list" :key="index">
+									<view class="rangle">
+										<view class="rangle-text" v-show="index<items.list.length-1"></view>
+										<image class="rangle-gift" src="https://zhoukaiwen.com/img/medal/icon-medal-gift.png" mode="" v-show="index == items.list.length-1"></image>
+									</view>
+									<view class="level">
+										{{item.name}}
+									</view>
+								</view>
+							</view>
+						</view>
+						<view class="text">
+							<text>分享小程序解锁其他开源项目！</text>
+							<text class="text-des">1.5k人已解锁</text>
 						</view>
 					</view>
-					<view class="text">
-						<text>累计时长解锁听力大礼包！</text>
-						<text class="text-des">35.5w人已解锁</text>
-					</view>
-				</view>
+				</div>
 			</swiper-item>
 		</swiper>
 		
@@ -182,6 +184,14 @@
 </script>
 
 <style lang="scss" scoped>
+	.topBg{
+		width: 100%;
+		background: url(https://zhoukaiwen.com/img/qdpz/topBg.png);
+		height: 400rpx;
+		padding-top: 80rpx;
+		background-repeat: no-repeat;
+		background-size: 100%;
+	}
 	.b-card{
 		background-color: #fefefe;
 		background-image: linear-gradient(-45deg, #e8e9ec,#f2f2f2);
@@ -299,9 +309,8 @@
 	}
 	.warp{
 		.swiper{
-			height: 560rpx;
+			height: 600rpx;
 			.progress{
-				margin-top: 30rpx;
 				.heard{
 					font-size: 36rpx;
 					font-weight: 600;

@@ -3583,6 +3583,10 @@ scroll-view.cu-steps .cu-item {
 	background-image: linear-gradient(45deg, #0081ff, #1cbbb4);
 	color: #ffffff;
 }
+.bg-1a1a1a{
+	background-color: #1A1A1A;
+	color: #ffffff;
+}
 
 .shadow[class*="-red"] {
 	box-shadow: 6upx 6upx 8upx rgba(204, 69, 59, 0.2);
