@@ -1,6 +1,6 @@
 <template>
 	<view class="warp">
-		<cu-custom bgColor="bg-1a1a1a" :isBack="false">
+		<cu-custom bgColor="bg-1a1a1a" :isBack="true">
 			<block slot="backText">返回</block>
 			<block slot="content">会员中心</block>
 		</cu-custom>
@@ -220,7 +220,7 @@
 		}
 	}
 	.b-level-1{
-		background-image: linear-gradient(45deg, #dce3e9,#a3b0b8);
+		background-image: linear-gradient(45deg, #dde1ea,#a3abb8);
 		color: #34424b;
 		.heard{
 			color: #34424b;
@@ -242,7 +242,7 @@
 		}
 	}
 	.b-level-2{
-		background-image: linear-gradient(45deg, #dde1ea,#a3abb8);
+		background-image: linear-gradient(45deg, #f0daa4,#d1a165);
 		color: #323b4a;
 		.heard{
 			color: #313a49;
@@ -264,7 +264,7 @@
 		}
 	}
 	.b-level-3{
-		background-image: linear-gradient(45deg, #ececec,#a0a0a0);
+		background-image: linear-gradient(45deg, #ddc1b5,#c59073);
 		color: #333333;
 		.heard{
 			color: #333333;
@@ -287,18 +287,19 @@
 		
 	}
 	.b-level-4{
-		background-image: linear-gradient(45deg, #f0e1b8 ,#d4b380);
-		color: #77582a;
+		background-image: linear-gradient(45deg, #303030 ,#1a1a1a);
+		color: #f0daa4;
 		.heard{
-			color: #775629;
+			color: #f0daa4;
 		}
 		.text{
 			background-color: #f2e3c4;
+			color: #77582a;
 		}
 		.outer{
 			background-color: #f2e3c4;
 			.inside{
-				background-color: #775629;
+				background-color: #f2e3c4;
 			}
 		}
 		.rangle{
