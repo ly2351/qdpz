@@ -30,6 +30,9 @@
 ### 扫码体验
 <img src="https://cdn.zhoukaiwen.com/qdpz_ewm.png" width="100%" />
 
+### 文档地址
+[点击查看详细说明文档](http://qdpz.zhoukaiwen.com/)
+
 ### 项目说明
 
 1.  项目基于Vue-uniApp，使用colorUi与uview框架，部分Demo参考uniApp插件市场等，感谢各位作者～
