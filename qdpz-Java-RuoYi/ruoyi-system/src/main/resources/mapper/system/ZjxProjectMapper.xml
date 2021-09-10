@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ruoyi.system.mapper.ZjxProjectMapper">
+    
+    <resultMap type="ZjxProject" id="ZjxProjectResult">
+        <result property="id"    column="id"    />
+        <result property="projectName"    column="project_name"    />
+        <result property="projectDesc"    column="project_desc"    />
+        <result property="createBy"    column="create_by"    />
+        <result property="projectType"    column="project_type"    />
+        <result property="createTime"    column="create_time"    />
+        <result property="thumbnail"    column="thumbnail"    />
+        <result property="updateBy"    column="update_by"    />
+        <result property="updateTime"    column="update_time"    />
+        <result property="remark"    column="remark"    />
+    </resultMap>
+
+    <sql id="selectZjxProjectVo">
+        select id, project_name, project_desc, create_by, project_type, create_time, thumbnail, update_by, update_time, remark from zjx_project
+    </sql>
+
+    <select id="selectZjxProjectList" parameterType="ZjxProject" resultMap="ZjxProjectResult">
+        <include refid="selectZjxProjectVo"/>
+        <where>  
+            <if test="projectName != null  and projectName != ''"> and project_name like concat('%', #{projectName}, '%')</if>
+            <if test="projectType != null "> and project_type = #{projectType}</if>
+        </where>
+    </select>
+    
+    <select id="selectZjxProjectById" parameterType="Long" resultMap="ZjxProjectResult">
+        <include refid="selectZjxProjectVo"/>
+        where id = #{id}
+    </select>
+        
+    <insert id="insertZjxProject" parameterType="ZjxProject" useGeneratedKeys="true" keyProperty="id">
+        insert into zjx_project
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="projectName != null">project_name,</if>
+            <if test="projectDesc != null">project_desc,</if>
+            <if test="createBy != null">create_by,</if>
+            <if test="projectType != null">project_type,</if>
+            <if test="createTime != null">create_time,</if>
+            <if test="thumbnail != null">thumbnail,</if>
+            <if test="updateBy != null">update_by,</if>
+            <if test="updateTime != null">update_time,</if>
+            <if test="remark != null">remark,</if>
+         </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+            <if test="projectName != null">#{projectName},</if>
+            <if test="projectDesc != null">#{projectDesc},</if>
+            <if test="createBy != null">#{createBy},</if>
+            <if test="projectType != null">#{projectType},</if>
+            <if test="createTime != null">#{createTime},</if>
+            <if test="thumbnail != null">#{thumbnail},</if>
+            <if test="updateBy != null">#{updateBy},</if>
+            <if test="updateTime != null">#{updateTime},</if>
+            <if test="remark != null">#{remark},</if>
+         </trim>
+    </insert>
+
+    <update id="updateZjxProject" parameterType="ZjxProject">
+        update zjx_project
+        <trim prefix="SET" suffixOverrides=",">
+            <if test="projectName != null">project_name = #{projectName},</if>
+            <if test="projectDesc != null">project_desc = #{projectDesc},</if>
+            <if test="createBy != null">create_by = #{createBy},</if>
+            <if test="projectType != null">project_type = #{projectType},</if>
+            <if test="createTime != null">create_time = #{createTime},</if>
+            <if test="thumbnail != null">thumbnail = #{thumbnail},</if>
+            <if test="updateBy != null">update_by = #{updateBy},</if>
+            <if test="updateTime != null">update_time = #{updateTime},</if>
+            <if test="remark != null">remark = #{remark},</if>
+        </trim>
+        where id = #{id}
+    </update>
+
+    <delete id="deleteZjxProjectById" parameterType="Long">
+        delete from zjx_project where id = #{id}
+    </delete>
+
+    <delete id="deleteZjxProjectByIds" parameterType="String">
+        delete from zjx_project where id in 
+        <foreach item="id" collection="array" open="(" separator="," close=")">
+            #{id}
+        </foreach>
+    </delete>
+
+</mapper>

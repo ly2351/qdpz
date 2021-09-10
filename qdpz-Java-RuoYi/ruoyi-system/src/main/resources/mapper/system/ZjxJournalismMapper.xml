@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ruoyi.system.mapper.ZjxJournalismMapper">
+    
+    <resultMap type="ZjxJournalism" id="ZjxJournalismResult">
+        <result property="id"    column="id"    />
+        <result property="journalismName"    column="journalism_name"    />
+        <result property="journalismType"    column="journalism_type"    />
+        <result property="journalismDesc"    column="journalism_desc"    />
+        <result property="createTime"    column="create_time"    />
+        <result property="thumbnail"    column="thumbnail"    />
+        <result property="createBy"    column="create_by"    />
+        <result property="updateBy"    column="update_by"    />
+        <result property="remark"    column="remark"    />
+        <result property="updateTime"    column="update_time"    />
+    </resultMap>
+
+    <sql id="selectZjxJournalismVo">
+        select id, journalism_name, journalism_type, journalism_desc, create_time, thumbnail, create_by, update_by, remark, update_time from zjx_journalism
+    </sql>
+
+    <select id="selectZjxJournalismList" parameterType="ZjxJournalism" resultMap="ZjxJournalismResult">
+        <include refid="selectZjxJournalismVo"/>
+        <where>  
+            <if test="journalismName != null  and journalismName != ''"> and journalism_name like concat('%', #{journalismName}, '%')</if>
+            <if test="journalismType != null "> and journalism_type = #{journalismType}</if>
+        </where>
+    </select>
+    
+    <select id="selectZjxJournalismById" parameterType="Long" resultMap="ZjxJournalismResult">
+        <include refid="selectZjxJournalismVo"/>
+        where id = #{id}
+    </select>
+        
+    <insert id="insertZjxJournalism" parameterType="ZjxJournalism" useGeneratedKeys="true" keyProperty="id">
+        insert into zjx_journalism
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="journalismName != null">journalism_name,</if>
+            <if test="journalismType != null">journalism_type,</if>
+            <if test="journalismDesc != null">journalism_desc,</if>
+            <if test="createTime != null">create_time,</if>
+            <if test="thumbnail != null">thumbnail,</if>
+            <if test="createBy != null">create_by,</if>
+            <if test="updateBy != null">update_by,</if>
+            <if test="remark != null">remark,</if>
+            <if test="updateTime != null">update_time,</if>
+         </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+            <if test="journalismName != null">#{journalismName},</if>
+            <if test="journalismType != null">#{journalismType},</if>
+            <if test="journalismDesc != null">#{journalismDesc},</if>
+            <if test="createTime != null">#{createTime},</if>
+            <if test="thumbnail != null">#{thumbnail},</if>
+            <if test="createBy != null">#{createBy},</if>
+            <if test="updateBy != null">#{updateBy},</if>
+            <if test="remark != null">#{remark},</if>
+            <if test="updateTime != null">#{updateTime},</if>
+         </trim>
+    </insert>
+
+    <update id="updateZjxJournalism" parameterType="ZjxJournalism">
+        update zjx_journalism
+        <trim prefix="SET" suffixOverrides=",">
+            <if test="journalismName != null">journalism_name = #{journalismName},</if>
+            <if test="journalismType != null">journalism_type = #{journalismType},</if>
+            <if test="journalismDesc != null">journalism_desc = #{journalismDesc},</if>
+            <if test="createTime != null">create_time = #{createTime},</if>
+            <if test="thumbnail != null">thumbnail = #{thumbnail},</if>
+            <if test="createBy != null">create_by = #{createBy},</if>
+            <if test="updateBy != null">update_by = #{updateBy},</if>
+            <if test="remark != null">remark = #{remark},</if>
+            <if test="updateTime != null">update_time = #{updateTime},</if>
+        </trim>
+        where id = #{id}
+    </update>
+
+    <delete id="deleteZjxJournalismById" parameterType="Long">
+        delete from zjx_journalism where id = #{id}
+    </delete>
+
+    <delete id="deleteZjxJournalismByIds" parameterType="String">
+        delete from zjx_journalism where id in 
+        <foreach item="id" collection="array" open="(" separator="," close=")">
+            #{id}
+        </foreach>
+    </delete>
+
+</mapper>
