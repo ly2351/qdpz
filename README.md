@@ -160,7 +160,7 @@
 
 
 ### 「前端铺子」交流群
-<p>群聊人数已超过200人，加群微信添加：280224091（加备注信息：Gitee）</p>
+<p>群聊人数远超200人，加群微信添加：280224091（加备注信息：Gitee）</p>
 <p>已加入大佬：naive-ui-admin啊俊、图鸟-可我会像、TopicQ作者等等前后端全栈大佬</p>
 <p>
 <img src="https://zhoukaiwen.com/img/wechat_ewmN.jpeg" width="300px" />
