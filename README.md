@@ -147,19 +147,26 @@
 3.  将项目拖进【HBuildX】- 运行 - 微信小程序 - 完成
 
 
-### 项目信息
+### 作者信息
 
 1.  作者：周凯文 (Kevin)
 2.  邮箱：280224091@qq.com
 3.  微信：280224091
 
 
-
 ### 其他说明
 > *  查看最新项目，请使用微信搜索小程序：“7he丶Kevin”
 > *  如果有不错的页面功能、设计，大家都可以参与项目开发
-> *  关于后台：目前正在整理制作，之后会开源给大家，请关注项目
-> *  作者 首页 [www.zhoukaiwen.com](https://www.zhoukaiwen.com)（访问权限）
+> *  前端铺子 首页 [qdpz.zhoukaiwen.com](https://qdpz.zhoukaiwen.com)
+
+### 关于后台
+> *  目前使用 `「若依」` 制作的后台，感谢作者开源！
+> * 已完成板块：文章资讯、开源项目管理等，并且在持续制作中... 请关注项目。
+<img src="https://zhoukaiwen.com/img/qdpz/b1.png" width="100%" />
+<img src="https://zhoukaiwen.com/img/qdpz/b2.png" width="100%" />
+<img src="https://zhoukaiwen.com/img/qdpz/r1.png" width="100%" />
+<img src="https://zhoukaiwen.com/img/qdpz/r2.png" width="100%" />
+<img src="https://zhoukaiwen.com/img/qdpz/r3.png" width="100%" />
 
 
 ### 「前端铺子」交流群
@@ -176,5 +183,4 @@
 > *  打赏就duck不必啦～ 就点点🌟 Star 🌟 关注更新，支持下作者就可以了
 
 ### 有项目、设计、其他方面需求合作，可以联系微信：
-> *  UI设计：m13753796471（甜美UI妹子，请备注：设计需求）
-> *  其他：280224091（请备注：Gitee）
+> *  280224091（请备注：Gitee）
