@@ -42,6 +42,7 @@
 > * 引导页
 > * 瀑布流
 > * 排行榜
+> * 聊天室
 > * 电子签名
 > * 视频播放
 > * 证件识别
@@ -51,6 +52,8 @@
 > * 主题切换
 > * 渐变动画
 > * 加载动画
+> * 签到页面
+> * 会员中心
 > * 图片编辑器
 > * 自定义键盘
 > * 行政区域图
@@ -69,13 +72,14 @@
 
 
 ### 部分截图
-<img src="https://cdn.zhoukaiwen.com/FotoJet1.png" width="100%" />
+<img src="https://zhoukaiwen.com/img/Design/app/FotoJet1.jpg" width="100%" />
 <img src="https://cdn.zhoukaiwen.com/FotoJet2.png" width="100%" />
 <img src="https://cdn.zhoukaiwen.com/FotoJet3.png" width="100%" />
 <img src="https://cdn.zhoukaiwen.com/FotoJet4.png" width="100%" />
 <img src="https://zhoukaiwen.com/img/Design/app/FotoJet6.jpg" width="100%" />
 <img src="https://zhoukaiwen.com/img/Design/app/FotoJet7.jpg" width="100%" />
 <img src="https://cdn.zhoukaiwen.com/FotoJet5.png" width="100%" />
+<img src="https://zhoukaiwen.com/img/Design/app/FotoJet9.jpg" width="100%" />
 <img src="https://zhoukaiwen.com/img/Design/app/FotoJet8.jpg" width="100%" />
 
 
@@ -104,7 +108,7 @@
 ├─static            	// 静态资源
 ├─tn_components       	// 组件模板页面入口
 	├─drag_demo				// 悬浮球
-	├─ancube.vue			// 
+	├─chat					// 聊天室
 	├─anloading.vue			// 自定义加载框
 	└─bgcolor.vue			// 背景色
 	└─bggrad.vue			// 背景渐变
