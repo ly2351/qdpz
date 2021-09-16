@@ -1,9 +1,22 @@
 <template>
 	<view class="components-home">
-		<view style="margin-top:-50rpx;height: 486rpx;">
-			<image src='https://zhoukaiwen.com/img/wccQQP.png' mode='widthFix' class='png'
-				style='width:100%;height:486rpx'></image>
+		<view style="margin-top:-50rpx;height: 486rpx; position: relative;margin-bottom: 80rpx;">
+			<image src='https://zhoukaiwen.com/img/wccQQP.png' mode='widthFix' class='png' style='width:100%;height:486rpx'></image>
+			<!--  -->
 		</view>
+		
+		<swiper class="card-swiper round-dot" :indicator-dots="false" :circular="true" :autoplay="true" interval="5000"
+		  duration="500" @change="cardSwiper" indicator-color="#ffffff" indicator-active-color="#ffffff" style="margin-top: -320upx;">
+		  <swiper-item v-for="(item,index) in swiperList" :key="index" :class="cardCur==index?'cur':''">
+		    <view class="swiper-item shadow-shop" style="border-radius: 20rpx 20rpx 22rpx 22rpx;">
+		      <!-- <view class="" :style="'background-image:url('+item.mainImageShowData[0]['image']+');filter: blur(20px);width: 100%;height: 150px;position: absolute;'">
+		          </view>
+		    			<image :src="item.mainImageShowData[0]['image']" mode="aspectFill" ></image> -->
+		      <image :src="item.url" v-if="item.type=='image'" mode="aspectFill" class=""></image>
+		
+		    </view>
+		  </swiper-item>
+		</swiper>
 
 		<view class="title-header">
 			<view class="title-text">
@@ -79,6 +92,24 @@
 		name: 'Components',
 		data() {
 			return {
+				swiperList: [{
+				  id: 0,
+				  type: 'image',
+				  url: 'https://zhoukaiwen.com/img/qdpz/phone1.png',
+				}, {
+				  id: 1,
+				  type: 'image',
+				  url: 'https://zhoukaiwen.com/img/qdpz/phone2.png'
+				}, {
+				  id: 2,
+				  type: 'image',
+				  url: 'https://zhoukaiwen.com/img/qdpz/phone3.png'
+				},{
+				  id: 3,
+				  type: 'image',
+				  url: 'https://zhoukaiwen.com/img/qdpz/phone4.png'
+				}],
+				cardCur: 0,
 				Links: [{
 						name: 'uView',
 						appId: 'wxc256e348c4032ebd'
@@ -150,6 +181,11 @@
 					{
 						title: 'keyboard',
 						name: '自定义键盘',
+						color: ''
+					},
+					{
+						title: 'chat/chat',
+						name: '聊天功能',
 						color: ''
 					},
 					{
@@ -235,12 +271,41 @@
 			}
 		},
 		methods: {
-
+			cardSwiper(e) {
+			  this.cardCur = e.detail.current
+			},
 		}
 	}
 </script>
 
 <style>
+	.card-swiper {
+	  height: 550upx !important;
+	}
+	
+	.card-swiper swiper-item {
+	  width: 260upx !important;
+	  left: 245upx;
+	  box-sizing: border-box;
+	  padding: 0upx 15upx 50upx 15upx;
+	  overflow: initial;
+	  /* margin: 100rpx 0; */
+	}
+	
+	.card-swiper swiper-item .swiper-item {
+	  width: 100%;
+	  display: block;
+	  height: 100%;
+	  border-radius: 10upx;
+	  transform: scale(0.7);
+	  transition: all 0.2s ease-in 0s;
+	  overflow: hidden;
+	}
+	
+	.card-swiper swiper-item.cur .swiper-item {
+	  transform: none;
+	  transition: all 0.2s ease-in 0s;
+	}
 	.bg-top-blue {
 		background-image: linear-gradient(135deg, #52B5FC, #746BFE);
 		color: #fff;
@@ -647,7 +712,6 @@
 		background-color: #1cbbb4;
 		color: #fff;
 	}
-
 	.bg-exper6 {
 		background-color: #9c26b0;
 		color: #fff;
@@ -729,10 +793,10 @@
 
 	.bg-kuxuan13 {
 		color: #fff;
-		background-color: #1cbbb4;
+		background-color: #a5673f;
 	}
 	.bg-kuxuan14 {
 		color: #fff;
-		background-color: #a5673f;
+		background-color: #FF4F94;
 	}
 </style>

@@ -537,7 +537,7 @@
 		height: 400rpx;
 		position: absolute;
 		top: -100rpx;
-		background-image: url(http://cdn.zhoukaiwen.com/modal_bg.png);
+		background-image: url(https://zhoukaiwen.com/img/qdpz/modal_bg.png);
 		background-size: 100%;
 		background-repeat: no-repeat;
 	}
