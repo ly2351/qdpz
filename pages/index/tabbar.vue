@@ -81,7 +81,7 @@
 		// 分享小程序
 		onShareAppMessage(res) {
 			return {
-				title: '学技术·做软件·找案例·寻合作，快来「7he丶Kevin」吧！',
+				title: '学技术·做软件·找案例·寻合作，快来「前端铺子」吧！',
 			};
 		},
 		onLoad() {
