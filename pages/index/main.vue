@@ -148,7 +148,13 @@
 						color: ''
 					}
 				],
-				kuxuan: [{
+				kuxuan: [
+					{
+						title: 'loveChina',
+						name: '国庆头像',
+						color: ''
+					},
+					{
 						title: 'mapLocus',
 						name: '地图轨迹',
 						color: ''

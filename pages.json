@@ -252,6 +252,13 @@
 				}
 			},
 			{
+				"path": "loveChina",
+				"style": {
+					"navigationStyle": "custom",
+					"navigationBarTitleText": "国庆头像"
+				}
+			},
+			{
 			    "path" : "chat/chat",
 			    "style" : {
 					"navigationBarTitleText":"Kevin聊天室",
