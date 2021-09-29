@@ -6,7 +6,7 @@
 		{
 			"path": "pages/index/tabbar",
 			"style": {
-				"navigationBarTitleText": "宅家学IT",
+				"navigationBarTitleText": "前端铺子",
 				"navigationStyle": "custom"
 			}
 		},
