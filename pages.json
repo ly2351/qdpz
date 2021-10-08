@@ -251,13 +251,13 @@
 					"navigationBarTitleText": "权益页面"
 				}
 			},
-			{
-				"path": "loveChina",
-				"style": {
-					"navigationStyle": "custom",
-					"navigationBarTitleText": "国庆头像"
-				}
-			},
+			// {
+			// 	"path": "loveChina",
+			// 	"style": {
+			// 		"navigationStyle": "custom",
+			// 		"navigationBarTitleText": "国庆头像"
+			// 	}
+			// },
 			{
 			    "path" : "chat/chat",
 			    "style" : {
