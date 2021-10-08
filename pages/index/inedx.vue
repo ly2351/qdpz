@@ -228,6 +228,10 @@ export default {
 				uni.navigateTo({
 					url: '../project/list'
 				});
+			}else if(e.currentTarget.dataset.mid == 4){
+				this.$emit('ShowNews','news')
+				console.log('文章资讯')
+				
 			}
 		},
 		goProjectList() {

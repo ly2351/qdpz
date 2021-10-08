@@ -1,6 +1,6 @@
 <template>
 	<view>
-		<index v-if="PageCur=='index'"></index>
+		<index @ShowNews="ShowNews" v-if="PageCur=='index'"></index>
 		<search v-if="PageCur=='search'"></search>
 		<cases v-if="PageCur=='cases'"></cases>
 		<news v-if="PageCur=='news'"></news>
@@ -81,7 +81,7 @@
 		// 分享小程序
 		onShareAppMessage(res) {
 			return {
-				title: '「迎国庆🇨🇳 生成红旗头像」学技术·找案例，快来「前端铺子」吧！',
+				title: '学技术·找案例，快来「前端铺子」吧！',
 			};
 		},
 		onLoad(){
@@ -91,7 +91,7 @@
 		},
 		onShareTimeline() {
 			return {
-				title: '「迎国庆🇨🇳 生成红旗头像」学技术·找案例，快来「前端铺子」吧！',
+				title: '学技术·找案例，快来「前端铺子」吧！',
 			}
 		},
 		onLoad() {
@@ -105,6 +105,10 @@
 			// });
 		},
 		methods: {
+			ShowNews(e){
+				console.log(e)
+				this.PageCur = e;
+			},
 			NavChange: function(e) {
 				console.log(e.currentTarget.dataset.cur)
 
