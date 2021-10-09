@@ -217,6 +217,11 @@
 				],
 				yangshi: [
 					{
+						title: 'login/index',
+						name: '登陆页合集',
+						color: ''
+					},
+					{
 						title: 'discern',
 						name: '证件识别',
 						color: ''
@@ -729,7 +734,10 @@
 		color: #fff;
 		background-color: #FFC32E;
 	}
-	
+	.bg-exper10 {
+		color: #fff;
+		background-color: #a5673f;
+	}
 
 	/*  */
 	.bg-kuxuan1 {

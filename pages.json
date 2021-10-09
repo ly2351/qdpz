@@ -294,6 +294,42 @@
 						"bounce":"none"
 					}
 			    }
+			},
+			{
+				"path": "login/index",
+				"style": {
+					"navigationStyle": "custom",
+					"app-plus": {  
+					    "titleNView": false
+					}
+				}
+			},
+			{
+				"path": "login/index2",
+				"style": {
+					"navigationStyle": "custom",
+					"app-plus": {  
+					    "titleNView": false
+					}
+				}
+			},
+			{
+				"path": "login/index3",
+				"style": {
+					"navigationStyle": "custom",
+					"app-plus": {  
+					    "titleNView": false
+					}
+				}
+			},
+			{
+				"path": "login/index4",
+				"style": {
+					"navigationStyle": "custom",
+					"app-plus": {  
+					    "titleNView": false
+					}
+				}
 			}
 		]
 	}],
