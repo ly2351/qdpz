@@ -190,6 +190,11 @@
 						color: ''
 					},
 					{
+						title: 'seat',
+						name: '在线选座',
+						color: ''
+					},
+					{
 						title: 'search',
 						name: '便捷查询',
 						color: ''

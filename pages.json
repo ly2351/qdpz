@@ -251,6 +251,13 @@
 					"navigationBarTitleText": "权益页面"
 				}
 			},
+			{
+				"path": "seat",
+				"style": {
+					"navigationStyle": "custom",
+					"navigationBarTitleText": "在线选座"
+				}
+			},
 			// {
 			// 	"path": "loveChina",
 			// 	"style": {
