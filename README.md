@@ -177,11 +177,9 @@
 ### 「前端铺子」交流群
 <p>一群人数已500人满，大家加群可扫码二群</p>
 <p>已加入大佬：naive-ui-admin啊俊、图鸟-可我会像、TopicQ作者等等前后端全栈大佬</p>
-<p>注：添加微信请备注：gitee</p>
 <p>
-<img src="https://zhoukaiwen.com/img/WechatIMG1315.jpeg" width="200px" />
-<img src="https://zhoukaiwen.com/img/WechatIMG1317.jpeg" width="200px" />
-<img src="https://zhoukaiwen.com/img/kevinWechat.jpeg" width="200px" />
+<img src="https://zhoukaiwen.com/img/WechatIMG1320.jpeg" width="200px" />
+<img src="https://zhoukaiwen.com/img/WechatIMG1319.jpeg" width="200px" />
 </p>
 
 
