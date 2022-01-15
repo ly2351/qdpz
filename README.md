@@ -31,7 +31,7 @@
 <img src="https://cdn.zhoukaiwen.com/qdpz_ewm.png" width="100%" />
 
 ### 文档地址
-[点击查看详细说明文档](http://qdpz.zhoukaiwen.com/)
+[点击查看详细说明文档，一定要仔细看哦～](http://qdpz.zhoukaiwen.com/)
 
 ### 项目说明
 
@@ -60,6 +60,7 @@
 > * 海报生成器
 > * 自定义相机
 > * 照片加水印
+> * 海报设计工具
 > * 地图轨迹回放
 > * 数据封装请求
 > * 图表（ucharts）
@@ -82,6 +83,7 @@
 <img src="https://cdn.zhoukaiwen.com/FotoJet5.png" width="100%" />
 <img src="https://zhoukaiwen.com/img/Design/app/FotoJet9.jpg" width="100%" />
 <img src="https://zhoukaiwen.com/img/Design/app/FotoJet8.jpg" width="100%" />
+<img src="https://zhoukaiwen.com/img/Design/app/FotoJet12.jpg" width="100%" />
 
 
 ### 目录说明
@@ -97,6 +99,9 @@
 │	└─uiImg.js			// 模拟数据
 │
 ├─components          	// 项目中使用到的功能封装
+│
+├─os_project      		// 客户项目入口
+│
 ├─pages      			// 页面入口文件夹
 │	├─index				// 主页4个TabBar页面
 │	├─me				// 个人中心内页面
@@ -105,6 +110,11 @@
 │	├─design			// 设计模板 · 瀑布流
 │	├─timeline			// 时间轴
 │	└─video				// 视频播放页
+│
+└─video					// 付费模版入口
+│	├─customCamera		// 自定义相机/图片编辑器
+│	├─posterList		// 海报设计列表
+│	└─posterImg			// 海报设计详情页
 │
 ├─static            	// 静态资源
 ├─tn_components       	// 组件模板页面入口
@@ -169,8 +179,6 @@
 > * 已完成板块：文章资讯、开源项目管理等，并且在持续制作中... 请关注项目。
 <img src="https://zhoukaiwen.com/img/qdpz/b1.png" width="100%" />
 <img src="https://zhoukaiwen.com/img/qdpz/b2.png" width="100%" />
-<img src="https://zhoukaiwen.com/img/qdpz/r1.png" width="100%" />
-<img src="https://zhoukaiwen.com/img/qdpz/r2.png" width="100%" />
 <img src="https://zhoukaiwen.com/img/qdpz/r3.png" width="100%" />
 
 
