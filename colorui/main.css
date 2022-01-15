@@ -3587,6 +3587,10 @@ scroll-view.cu-steps .cu-item {
 	background-color: #1A1A1A;
 	color: #ffffff;
 }
+.bg-gdBlue{
+	background-color: #2695FE;
+	color: #ffffff;
+}
 
 .shadow[class*="-red"] {
 	box-shadow: 6upx 6upx 8upx rgba(204, 69, 59, 0.2);

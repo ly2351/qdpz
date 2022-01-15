@@ -46,6 +46,18 @@
 		
 		<view class="title-header">
 			<view class="title-text">
+				付 / 费 / 组 / 件
+			</view>
+		</view>
+		<view class='nav-list margin-top'>
+			<navigator open-type="navigate" hover-class='none' :url="'../main/' + item.title"
+				:class="'nav-li bg-index' + (index+1)" v-for="(item, index) in fufei" :key="index">
+				<view class="nav-name">{{item.name}}</view>
+			</navigator>
+		</view>
+		
+		<view class="title-header">
+			<view class="title-text">
 				设 / 计 / 模 / 版
 			</view>
 		</view>
@@ -57,17 +69,6 @@
 			</navigator>
 		</view>
 		
-		<view class="title-header">
-			<view class="title-text">
-				付 / 费 / 组 / 件
-			</view>
-		</view>
-		<view class='nav-list margin-top'>
-			<navigator open-type="navigate" hover-class='none' :url="'../main/' + item.title"
-				:class="'nav-li bg-index' + (index+1)" v-for="(item, index) in fufei" :key="index">
-				<view class="nav-name">{{item.name}}</view>
-			</navigator>
-		</view>
 
 		<view class="title-header">
 			<view class="title-text">
@@ -274,8 +275,13 @@
 				],
 				fufei:[
 					{
+						title: 'posterList',
+						name: '海报设计(¥699)',
+						color: ''
+					},
+					{
 						title: 'customCamera',
-						name: '图片编辑器',
+						name: '图片编辑器(¥199)',
 						color: ''
 					}
 				]
