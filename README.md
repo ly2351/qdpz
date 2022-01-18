@@ -129,6 +129,7 @@
 	└─company.vue			// 自定义相机
 	└─course.vue			// 课班信息
 	└─discern.vue			// 证件识别
+	└─details.vue			// 通用详情页
 	└─district.vue			// 行政区域图
 	└─guide.vue				// 引导页
 	└─imageEditor.vue		// 图片编辑器
