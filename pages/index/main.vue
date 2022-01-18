@@ -243,6 +243,11 @@
 						color: ''
 					},
 					{
+						title: 'details',
+						name: '通用详情页',
+						color: ''
+					},
+					{
 						title: 'clock',
 						name: '每日签到',
 						color: ''
@@ -748,6 +753,10 @@
 	.bg-exper10 {
 		color: #fff;
 		background-color: #a5673f;
+	}
+	.bg-exper11 {
+		background-color: #BC78EC;
+		color: #fff;
 	}
 
 	/*  */

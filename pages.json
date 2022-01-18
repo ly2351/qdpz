@@ -350,6 +350,13 @@
 							"titleNView": false
 						}
 					}
+				},
+				{
+					"path": "details",
+					"style": {
+						"navigationStyle": "custom",
+						"navigationBarTitleText": "通用详情页"
+					}
 				}
 			]
 		},

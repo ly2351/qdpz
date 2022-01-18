@@ -120,6 +120,7 @@
 ├─tn_components       	// 组件模板页面入口
 	├─drag_demo				// 悬浮球
 	├─chat					// 聊天室
+	├─login					// 登录页合集
 	├─anloading.vue			// 自定义加载框
 	└─bgcolor.vue			// 背景色
 	└─bggrad.vue			// 背景渐变
@@ -183,7 +184,7 @@
 
 
 ### 「前端铺子」交流群
-<p>一群人数已500人满，大家加群可扫码二群</p>
+<p>一群人数已500人满，大家加群可扫码二群，备注：gitee</p>
 <p>已加入大佬：naive-ui-admin啊俊、图鸟-可我会像、TopicQ作者等等前后端全栈大佬</p>
 <p>
 <img src="https://zhoukaiwen.com/img/WechatIMG1320.jpeg" width="300px" />
