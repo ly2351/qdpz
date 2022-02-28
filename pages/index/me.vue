@@ -138,7 +138,7 @@
 				</view>
 				
 				<view class="cu-item" @click="playVideo">
-					<button class='content cu-btn' open-type="share">
+					<button class='content cu-btn'>
 						<image src='../../static/me/icon/shouji.png' class='png' mode='aspectFit'></image>
 						<text class='text-lg margin-sm'>支持作者</text>
 					</button>

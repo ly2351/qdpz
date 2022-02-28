@@ -769,8 +769,8 @@
 		color: #fff;
 	}
 	.bg-exper13 {
-		color: #ff3434;
-		background-color: #fadbd9;
+		color: #fff;
+		background-color: #ff3434;
 	}
 
 	/*  */
