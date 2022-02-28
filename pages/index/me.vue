@@ -137,6 +137,17 @@
 					</button>
 				</view>
 				
+				<view class="cu-item" @click="playVideo">
+					<button class='content cu-btn' open-type="share">
+						<image src='../../static/me/icon/shouji.png' class='png' mode='aspectFit'></image>
+						<text class='text-lg margin-sm'>支持作者</text>
+					</button>
+					<view class="action">
+						<text class="text-xs text-orange">不需要打钱！</text>
+						<text class="text-xs text-grey">看看广告就很感谢啦～</text>
+					</view>
+				</view>
+				
 				<view class="cu-item">
 					<button class='content cu-btn' @tap="showGitee" data-target="ModalGitee">
 						<image style="border-radius: 50rpx;" src='https://zhoukaiwen.com/img/icon/gitee_logo.jpeg' class='png' mode='aspectFit'></image>
@@ -216,6 +227,7 @@
 </template>
 
 <script>
+	var videoAd = null
 	export default {
 		data() {
 			return {
@@ -288,6 +300,18 @@
 			}
 		},
 		mounted() {
+			// 在页面中定义激励视频广告
+			// let videoAd = null
+			
+			// 在页面onLoad回调事件中创建激励视频广告实例
+			if (wx.createRewardedVideoAd) {
+			  videoAd = wx.createRewardedVideoAd({
+			    adUnitId: 'adunit-5620518afa0bd171'
+			  })
+			  videoAd.onLoad(() => {})
+			  videoAd.onError((err) => {})
+			  videoAd.onClose((res) => {})
+			}
 			// uni.showToast({
 			//     title: '暂未开放,敬请期待',
 			// 	icon: 'none',
@@ -295,6 +319,16 @@
 			// });
 		},
 		methods: {
+			playVideo(){
+				videoAd.show()
+				.catch(() => {
+				    videoAd.load()
+				    .then(() => videoAd.show())
+				    .catch(err => {
+				      console.log('激励视频 广告显示失败')
+				    })
+				})
+			},
 			getGitee(){
 				uni.setClipboardData({
 				    data: 'https://gitee.com/kevin_chou',

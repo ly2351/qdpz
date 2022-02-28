@@ -9,7 +9,7 @@
 		<add-tip :tip="tip" :duration="duration" />
 
 		<!-- banner图 -->
-		<view class="uni-padding-wrap">
+		<!-- <view class="uni-padding-wrap">
 			<view class="page-section swiper">
 				<view class="page-section-spacing">
 					<swiper class="swiper" circular="true" indicator-dots="true" autoplay="true" interval="3500"
@@ -22,7 +22,10 @@
 					</swiper>
 				</view>
 			</view>
-		</view>
+		</view> -->
+		
+		<!-- 流量主-腾讯广告 -->
+		<ad unit-id="adunit-961458988ac9ad8b" ad-intervals="30"></ad>
 
 		<!-- 导航栏 -->
 		<view class="cu-list grid solids-bottom col-4 no-border">
@@ -216,6 +219,28 @@
 		mounted() {
 			console.log(this.projectList);
 			this.getData();
+			
+			
+			// 在页面中定义插屏广告
+			let interstitialAd = null
+			
+			// 在页面onLoad回调事件中创建插屏广告实例
+			if (wx.createInterstitialAd) {
+			  interstitialAd = wx.createInterstitialAd({
+			    adUnitId: 'adunit-0843cdd8084e561d'
+			  })
+			  interstitialAd.onLoad(() => {})
+			  interstitialAd.onError((err) => {})
+			  interstitialAd.onClose(() => {})
+			}
+			
+			// 在适合的场景显示插屏广告
+			if (interstitialAd) {
+			  interstitialAd.show().catch((err) => {
+			    console.error(err)
+			  })
+			}
+			// 插屏广告结束
 		},
 		methods: {
 			getData() {
