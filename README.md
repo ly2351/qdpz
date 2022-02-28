@@ -54,7 +54,9 @@
 > * 加载动画
 > * 签到页面
 > * 会员中心
+> * 授权登录
 > * 图片编辑器
+> * 摄影师资料
 > * 自定义键盘
 > * 行政区域图
 > * 海报生成器
@@ -84,6 +86,7 @@
 <img src="https://zhoukaiwen.com/img/Design/app/FotoJet9.jpg" width="100%" />
 <img src="https://zhoukaiwen.com/img/Design/app/FotoJet8.jpg" width="100%" />
 <img src="https://zhoukaiwen.com/img/Design/app/FotoJet12.jpg" width="100%" />
+<img src="https://zhoukaiwen.com/img/Design/app/FotoJet13.jpg" width="100%" />
 
 
 ### 目录说明
@@ -141,6 +144,7 @@
 	└─pano.vue				// webview高德地图
 	└─poster.vue			// 海报生成器
 	└─request.vue			// 模拟数据请求
+	└─takePicture.vue		// 摄影师资料
 	└─salary.vue			// 排行榜
 	└─search.vue			// 便捷查询
 	└─sign.vue				// 手写签名
