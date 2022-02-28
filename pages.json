@@ -238,6 +238,13 @@
 					}
 				},
 				{
+					"path": "takePicture",
+					"style": {
+						"navigationStyle": "custom",
+						"navigationBarTitleText": "摄影师资料"
+					}
+				},
+				{
 					"path": "timetables",
 					"style": {
 						"navigationStyle": "custom",
@@ -344,6 +351,15 @@
 				},
 				{
 					"path": "login/index4",
+					"style": {
+						"navigationStyle": "custom",
+						"app-plus": {
+							"titleNView": false
+						}
+					}
+				},
+				{
+					"path": "login/wxLogin",
 					"style": {
 						"navigationStyle": "custom",
 						"app-plus": {

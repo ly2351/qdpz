@@ -146,6 +146,10 @@
 </script>
 
 <style lang="scss">
+	.color_main{
+		color: #000000;
+		font-weight: 900;
+	}
 	.box {
 		margin: 20upx 0;
 	}

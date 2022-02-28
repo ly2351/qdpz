@@ -5,15 +5,11 @@
 			<!--  -->
 		</view>
 		
-		<swiper class="card-swiper round-dot" :indicator-dots="false" :circular="true" :autoplay="true" interval="5000"
+		<swiper class="card-swiper round-dot" previous-margin="1rpx" :indicator-dots="false" :circular="true" :autoplay="true" interval="5000"
 		  duration="500" @change="cardSwiper" indicator-color="#ffffff" indicator-active-color="#ffffff" style="margin-top: -320upx;">
-		  <swiper-item v-for="(item,index) in swiperList" :key="index" :class="cardCur==index?'cur':''">
+		  <swiper-item v-for="(item,index) in swiperList" :key="index" :class="cardCur == index ? 'cur':''">
 		    <view class="swiper-item shadow-shop" style="border-radius: 20rpx 20rpx 22rpx 22rpx;">
-		      <!-- <view class="" :style="'background-image:url('+item.mainImageShowData[0]['image']+');filter: blur(20px);width: 100%;height: 150px;position: absolute;'">
-		          </view>
-		    			<image :src="item.mainImageShowData[0]['image']" mode="aspectFill" ></image> -->
 		      <image :src="item.url" v-if="item.type=='image'" mode="aspectFill" class=""></image>
-		
 		    </view>
 		  </swiper-item>
 		</swiper>
@@ -70,7 +66,7 @@
 		</view>
 		
 
-		<view class="title-header">
+		<!-- <view class="title-header">
 			<view class="title-text">
 				友 / 情 / 链 / 接
 			</view>
@@ -82,7 +78,7 @@
 				v-for="(item, index) in Links" :key="index">
 				<view class="nav-name">{{item.name}}</view>
 			</navigator>
-		</view>
+		</view> -->
 
 		<view style="height: 120rpx;width: 1rpx;"></view>
 	</view>
@@ -228,6 +224,11 @@
 						color: ''
 					},
 					{
+						title: 'login/wxLogin',
+						name: '微信授权登陆',
+						color: ''
+					},
+					{
 						title: 'discern',
 						name: '证件识别',
 						color: ''
@@ -245,6 +246,11 @@
 					{
 						title: 'details',
 						name: '通用详情页',
+						color: ''
+					},
+					{
+						title: 'takePicture',
+						name: '摄影师资料',
 						color: ''
 					},
 					{
@@ -307,7 +313,7 @@
 	
 	.card-swiper swiper-item {
 	  width: 260upx !important;
-	  left: 245upx;
+	  left: 245upx;	
 	  box-sizing: border-box;
 	  padding: 0upx 15upx 50upx 15upx;
 	  overflow: initial;
@@ -757,6 +763,14 @@
 	.bg-exper11 {
 		background-color: #BC78EC;
 		color: #fff;
+	}
+	.bg-exper12 {
+		background-color: #8DC63F;
+		color: #fff;
+	}
+	.bg-exper13 {
+		color: #ff3434;
+		background-color: #fadbd9;
 	}
 
 	/*  */
