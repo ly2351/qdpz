@@ -184,16 +184,15 @@
 > *  目前使用 `「若依」` 制作的后台，感谢作者开源！
 > * 已完成板块：文章资讯、开源项目管理等，并且在持续制作中... 请关注项目。
 <img src="https://zhoukaiwen.com/img/qdpz/b1.png" width="100%" />
-<img src="https://zhoukaiwen.com/img/qdpz/b2.png" width="100%" />
 <img src="https://zhoukaiwen.com/img/qdpz/r3.png" width="100%" />
 
 
 ### 「前端铺子」交流群
-<p>一群人数已500人满，大家加群可扫码二群，备注：gitee</p>
+<p>一群人数已500人满，大家可扫码加我拉群，请备注：gitee</p>
 <p>已加入大佬：naive-ui-admin啊俊、图鸟-可我会像、TopicQ作者等等前后端全栈大佬</p>
 <p>
 <img src="https://zhoukaiwen.com/img/WechatIMG1320.jpeg" width="300px" />
-<img src="https://zhoukaiwen.com/img/WechatIMG1123.jpeg" width="300px" />
+<img src="https://cdn.zhoukaiwen.com/xhd_wx.jpg" width="300px" />
 </p>
 
 
