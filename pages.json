@@ -245,6 +245,27 @@
 					}
 				},
 				{
+					"path": "photoWall/photoAll",
+					"style": {
+						"navigationStyle": "custom",
+						"navigationBarTitleText": "照片墙首页"
+					}
+				},
+				{
+					"path": "photoWall/timeLine",
+					"style": {
+						"navigationStyle": "custom",
+						"navigationBarTitleText": "照片墙第二页"
+					}
+				},
+				{
+					"path": "photoWall/imageList",
+					"style": {
+						"navigationStyle": "custom",
+						"navigationBarTitleText": "照片墙第三页"
+					}
+				},
+				{
 					"path": "timetables",
 					"style": {
 						"navigationStyle": "custom",
@@ -372,6 +393,13 @@
 					"style": {
 						"navigationStyle": "custom",
 						"navigationBarTitleText": "通用详情页"
+					}
+				},
+				{
+					"path": "details_wares",
+					"style": {
+						"navigationStyle": "custom",
+						"navigationBarTitleText": "商品详情页"
 					}
 				}
 			]

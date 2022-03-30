@@ -192,6 +192,11 @@
 						color: ''
 					},
 					{
+						title: 'photoWall/photoAll',
+						name: '照片墙下载',
+						color: ''
+					},
+					{
 						title: 'search',
 						name: '便捷查询',
 						color: ''
@@ -246,6 +251,11 @@
 					{
 						title: 'details',
 						name: '通用详情页',
+						color: ''
+					},
+					{
+						title: 'details_wares',
+						name: '商品详情页',
 						color: ''
 					},
 					{
@@ -772,6 +782,10 @@
 		color: #fff;
 		background-color: #ff3434;
 	}
+	.bg-exper14 {
+		color: #fff;
+		background-color: #FF4F94;
+	}
 
 	/*  */
 	.bg-kuxuan1 {
@@ -841,5 +855,9 @@
 	.bg-kuxuan14 {
 		color: #fff;
 		background-color: #FF4F94;
+	}
+	.bg-kuxuan15 {
+		color: #fff;
+		background-color: #8DC63F;
 	}
 </style>
