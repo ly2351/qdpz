@@ -17,7 +17,6 @@
 <div align="center">
 
 
-
 <p>基于uni-app、colorUi、uView，支持小程序、H5、Android和IOS</p>
 
 ```
@@ -125,6 +124,7 @@
 	├─drag_demo				// 悬浮球
 	├─chat					// 聊天室
 	├─login					// 登录页合集
+	├─photoWall				// 照片墙功能
 	├─anloading.vue			// 自定义加载框
 	└─bgcolor.vue			// 背景色
 	└─bggrad.vue			// 背景渐变
