@@ -40,28 +40,66 @@
 		onLoad() {
 		},
 		methods: {
+			getUserProfile(){
+				var that = this;
+				return new Promise((resolve, reject) => {
+					uni.getUserProfile({
+						desc: '获取您的微信信息以授权小程序',
+						success: userRes => {
+							console.log('getUserProfile-res', userRes);
+							resolve(userRes);
+							that.UserProfileRes = userRes
+						},
+						fail: userErr => {
+							uni.showToast({
+								title: '授权失败',
+								icon: 'error'
+							});
+							console.log('getUserProfile-err', userErr);
+							reject(userErr);
+						}
+					});
+				});
+			},
+			getLoginCode(){
+				var that = this;
+				return new Promise((resolve, reject) => {
+					uni.login({
+						provider: 'weixin',
+						success: loginRes => {
+							console.log('loginRes', loginRes);
+							that.loginRes = loginRes
+							resolve(loginRes);
+						}
+					});
+				});
+			},
 			login(){
 				var that = this;
-				uni.getUserProfile({
-					desc: '获取您的微信信息以授权小程序',
-					lang: 'zh_CN',
-					success: UserProfileRes => {  
-						console.log(UserProfileRes)
-						uni.login({
-							provider: 'weixin',
-							success: function(loginRes) {
-						 	console.log('----1:', loginRes);
-						 	console.log('----2:', UserProfileRes);
-								uni.navigateBack({
-									delta: 1
-								});
-							}
-						});
-					},
-					fail:err=>{
-						console.log(err)
-					}
+				uni.showLoading({
+					title: '加载中'
 				})
+				let userProFile = this.getUserProfile();
+				let loginCode = this.getLoginCode();
+				loginCode.then(code => {
+						return code;
+					}).then(logCode => {
+						return new Promise((resolve, reject) => {
+							userProFile.then(res => {				
+									console.log('请求数据解析');
+									uni.hideLoading();
+								})
+								.catch(err => {
+									reject(err);
+								});
+						});
+					})
+					.then(res => {
+						console.log('promise-res', res);
+					})
+					.catch(err => {
+						console.log('userProfile-err', err);
+					});
 			},
 			goBack(){
 				uni.navigateBack({
