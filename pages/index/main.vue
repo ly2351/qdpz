@@ -259,6 +259,11 @@
 						color: ''
 					},
 					{
+						title: 'skiTicket/index',
+						name: '购票页面',
+						color: ''
+					},
+					{
 						title: 'takePicture',
 						name: '摄影师资料',
 						color: ''
@@ -785,6 +790,10 @@
 	.bg-exper14 {
 		color: #fff;
 		background-color: #FF4F94;
+	}
+	.bg-exper15 {
+		color: #fff;
+		background-color: #6F68DF;
 	}
 
 	/*  */

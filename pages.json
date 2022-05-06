@@ -389,6 +389,24 @@
 					}
 				},
 				{
+					"path": "skiTicket/index",
+					"style": {
+						"navigationStyle": "custom",
+						"app-plus": {
+							"titleNView": false
+						}
+					}
+				},
+				{
+					"path": "skiTicket/pay",
+					"style": {
+						"navigationStyle": "custom",
+						"app-plus": {
+							"titleNView": false
+						}
+					}
+				},
+				{
 					"path": "details",
 					"style": {
 						"navigationStyle": "custom",
