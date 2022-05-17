@@ -182,8 +182,7 @@
 > *  前端铺子 首页 [qdpz.zhoukaiwen.com](https://qdpz.zhoukaiwen.com)
 
 ### 关于后台
-> *  目前使用 `「若依」` 制作的后台，感谢作者开源！
-> * 已完成板块：文章资讯、开源项目管理等，并且在持续制作中... 请关注项目。
+> *  目前已经暂停后端的开发，等前端组件完善后会统一制作，请关注项目
 <img src="https://zhoukaiwen.com/img/qdpz/b1.png" width="100%" />
 <img src="https://zhoukaiwen.com/img/qdpz/r3.png" width="100%" />
 
