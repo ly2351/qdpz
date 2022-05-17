@@ -124,8 +124,10 @@
 				})
 			},
 			goMatting(){
-				uni.navigateTo({
-					url: '../main/matting'
+				uni.showToast({
+					title: '会员页面，暂不开放',
+					icon: 'none',
+					duration: 3000
 				})
 			}
 		}
