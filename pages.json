@@ -273,6 +273,13 @@
 					}
 				},
 				{
+					"path": "category",
+					"style": {
+						"navigationStyle": "custom",
+						"navigationBarTitleText": "技术栈类目"
+					}
+				},
+				{
 					"path": "imageEditor",
 					"style": {
 						"navigationBarTitleText": "图片编辑器"

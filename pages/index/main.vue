@@ -249,6 +249,11 @@
 						color: ''
 					},
 					{
+						title: 'category',
+						name: '技术栈·类目',
+						color: ''
+					},
+					{
 						title: 'details',
 						name: '通用详情页',
 						color: ''
@@ -794,6 +799,10 @@
 	.bg-exper15 {
 		color: #fff;
 		background-color: #6F68DF;
+	}
+	.bg-exper16 {
+		color: #fff;
+		background-color: #1cbbb4;
 	}
 
 	/*  */
