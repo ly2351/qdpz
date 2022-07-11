@@ -3782,6 +3782,9 @@ scroll-view.cu-steps .cu-item {
 .text-xxl {
 	font-size: 44upx;
 }
+.text-xxxl {
+	font-size: 52upx;
+}
 
 .text-sl {
 	font-size: 80upx;

@@ -15,7 +15,7 @@
 				<button @tap="login()">登 录</button>
 				<view class="t-c">
 					<text class="t-c-txt" @tap="reg()">注册账号</text>
-					<text @tap="forgotPwd()">返回首页</text>
+					<text>返回首页</text>
 				</view>
 			</form>
 			<view class="t-f"><text>—————— 其他登录方式 ——————</text></view>
@@ -54,12 +54,6 @@ export default {
 				return;
 			}
 			uni.showToast({ title: '登录成功！', icon: 'none' });
-		},
-		//忘记密码
-		forgotPwd() {
-			uni.navigateTo({
-				url: '../../pages/index/tabbar'
-			});
 		},
 		//立刻注册
 		reg() {

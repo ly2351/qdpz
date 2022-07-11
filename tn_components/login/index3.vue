@@ -19,8 +19,7 @@
 		</view>
 		<view class="cardBox">
 			<view>
-				原设计为注册，点击切换
-				<text class="txt" @tap="reg()">登陆模版4</text>
+				注册新账号
 			</view>
 		</view>
 		<image class="img-b" src="https://zhoukaiwen.com/img/loginImg/bg2.png"></image>
@@ -56,12 +55,6 @@ export default {
 		//忘记密码
 		forgotPwd() {
 			uni.showToast({ title: '忘记密码', icon: 'none' });
-		},
-		// 跳转第最后一个登陆模版
-		reg() {
-			uni.navigateTo({
-				url: 'index4'
-			});
 		}
 	}
 };
@@ -180,7 +173,7 @@ export default {
 	-webkit-box-align: center;
 	-webkit-align-items: center;
 	align-items: center;
-	padding: 5px;
+	padding: 5rpx;
 	background: #ffffff;
 	opacity: 0.9;
 	-webkit-border-radius: 20rpx;
@@ -196,6 +189,5 @@ export default {
 }
 .cardBox .txt {
     margin-left: 10rpx;
-	color: #fe519f;
 }
 </style>

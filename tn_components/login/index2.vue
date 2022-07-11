@@ -2,10 +2,10 @@
 <template>
 	<view style="height:100vh;background: #fff;">
 		<view class="img-a">
-			<view class="t-b" @click="goLogin3()">
+			<view class="t-b">
 				您好，
 				<br />
-				欢迎使用，点我切换 登陆模版3
+				欢迎使用，前端铺子样式组件
 			</view>
 		</view>
 		<view class="login-view" style="">
@@ -41,12 +41,6 @@ export default {
 	},
 	onLoad() {},
 	methods: {
-		// 跳转第二个登陆模版
-		goLogin3(){
-			uni.navigateTo({
-				url: 'index3'
-			});
-		},
 		//当前登录按钮操作
 		login() {
 			var that = this;
