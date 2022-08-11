@@ -74,6 +74,7 @@
 
 
 ### 部分截图
+<img src="https://zhoukaiwen.com/img/Design/app/FotoJetHy.jpg" width="100%" />
 <img src="https://zhoukaiwen.com/img/Design/app/FotoJet11.jpg" width="100%" />
 <img src="https://zhoukaiwen.com/img/Design/app/FotoJet1.jpg" width="100%" />
 <img src="https://cdn.zhoukaiwen.com/FotoJet2.png" width="100%" />
@@ -87,6 +88,7 @@
 <img src="https://zhoukaiwen.com/img/Design/app/FotoJet12.jpg" width="100%" />
 <img src="https://zhoukaiwen.com/img/Design/app/FotoJet13.jpg" width="100%" />
 <img src="https://cdn.zhoukaiwen.com/FotoJet13.jpg" width="100%" />
+
 
 
 ### 目录说明
@@ -194,7 +196,7 @@
 <img src="https://zhoukaiwen.com/img/WechatIMG1320.jpeg" width="200px" />
 <img src="https://cdn.zhoukaiwen.com/qdpz_jt2.jpg" width="200px" />
 <!-- <img src="https://cdn.zhoukaiwen.com/xhd_wx.jpg" width="300px" /> -->
-<img src="https://cdn.zhoukaiwen.com/qdpz_jt_qun3.jpg" width="200px" />
+<img src="https://cdn.zhoukaiwen.com/kevin_wx_jt.jpg" width="200px" />
 
 </p>
 
