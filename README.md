@@ -196,7 +196,7 @@
 <img src="https://zhoukaiwen.com/img/WechatIMG1320.jpeg" width="200px" />
 <img src="https://cdn.zhoukaiwen.com/qdpz_jt2.jpg" width="200px" />
 <!-- <img src="https://cdn.zhoukaiwen.com/xhd_wx.jpg" width="300px" /> -->
-<img src="https://cdn.zhoukaiwen.com/kevin_wx_jt.jpg" width="200px" />
+<img src="https://zhoukaiwen.com/img/kevin_wx_jt.jpg" width="200px" />
 
 </p>
 
