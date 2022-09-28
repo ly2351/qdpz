@@ -182,11 +182,23 @@
 > *  查看最新项目，请使用微信搜索小程序：“7he丶Kevin”
 > *  如果有不错的页面功能、设计，大家都可以参与项目开发
 > *  前端铺子 首页 [qdpz.zhoukaiwen.com](https://qdpz.zhoukaiwen.com)
+> *  [前端铺子] 遵循MIT开源协议发布,并提供免费使用!
+> *  使用本框架不得用于开发违反国家有关政策的相关软件和应用,否则要付法律责任的哦!
 
 ### 关于后台
-> *  目前已经暂停后端的开发，等前端组件完善后会统一制作，请关注项目
-<img src="https://zhoukaiwen.com/img/qdpz/b1.png" width="100%" />
-<img src="https://zhoukaiwen.com/img/qdpz/r3.png" width="100%" />
+> *  后端使用NodeJS+MySQL开发,项目为前后端分离开发,请移步后端仓库
+<table>
+    <tr>
+        <td><img src="https://cdn.zhoukaiwen.com/Furn2Px33iqRkw9TYAgGP6oQPwag"></td>
+        <td><img src="https://cdn.zhoukaiwen.com/FsASeggcSyqniDLgS6sr9HZM7JwU"></td>
+    </tr>
+    <tr>
+        <td><img src="https://cdn.zhoukaiwen.com/FjEzX3G6zY0wKaYzjSZrdIB_gT_W"></td>
+        <td><img src="https://cdn.zhoukaiwen.com/FkD3wMH5muktcHfqijdM-oCX8uvm"></td>
+    </tr>
+</table>
+
+>  未来根据时间计划,还会增加[php语言版本][Python语言版本][GOLang语言版本]等等!
 
 
 ### 「前端铺子」交流群
@@ -199,8 +211,6 @@
 <img src="https://zhoukaiwen.com/img/kevin_wx_jt.jpg" width="200px" />
 
 </p>
-
-
 
 ### 赞助作者
 > *  打赏就duck不必啦～ 就点点🌟 Star 🌟 关注更新，支持下作者就可以了

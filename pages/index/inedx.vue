@@ -55,7 +55,10 @@
 				</view>
 			</view>
 		</view>
-
+		
+		
+		<image @click="goAboutUs" class="jn_img" src="https://zhoukaiwen.com/img/index_hz2.jpg" mode="widthFix"></image>
+	
 		<view class="cu-bar bg-white margin-top-xs">
 			<view class="action sub-title">
 				<text class="text-xl text-bold text-blue text-shadow">热门视频</text>
@@ -81,7 +84,7 @@
 		</view>
 		<view class="cu-bar bg-white margin-top-xs">
 			<view class="action sub-title">
-				<text class="text-xl text-bold text-blue text-shadow">开源项目</text>
+				<text class="text-xl text-bold text-blue text-shadow">项目展示</text>
 				<text class="text-ABC text-blue">curriculum</text>
 			</view>
 			<view class="action" @click="goProjectList"><text class="text-lg text-grey text-shadow">更多</text></view>
@@ -90,25 +93,25 @@
 		<view class="cu-card case no-card">
 			<view @click="goProject(item.id)" class="cu-item shadow" v-for="(item, index) in projectList" :key="index">
 				<view class="image">
-					<image :src="item.tImg" mode="widthFix"></image>
-					<view class="cu-tag bg-gradual-orange">{{ item.tabs }}</view>
+					<image :src="item.img" mode="widthFix"></image>
+					<view class="cu-tag bg-gradual-orange">{{ item.type | typeF }}</view>
 					<view class="cu-bar bg-shadeBottom">
-						<text class="text-cut">{{ item.type }}</text>
+						<text class="text-cut">{{ item.content }}</text>
 					</view>
 				</view>
 				<view class="cu-list menu-avatar">
 					<view class="cu-item">
 						<view class="margin-lr flex-sub">
-							<view class="item-name text-grey text-lg">{{ item.title }}</view>
-							<view class="text-gray text-sm flex justify-between">
-								{{ item.time }}
-								<view class="text-gray text-sm">
+							<view class="item-name text-bold text-grey text-lg">{{ item.title }}</view>
+							<view class="text-gray text-df flex justify-between">
+								{{ item.createdAt | formatDate }}
+								<view class="text-gray text-df">
 									<text class="cuIcon-attentionfill margin-lr-xs"></text>
-									{{ item.user[0].read }}
+									{{ item.seeNum }}
 									<text class="cuIcon-appreciatefill margin-lr-xs"></text>
-									{{ item.user[0].like }}
-									<text class="cuIcon-shopfill margin-lr-xs"></text>
-									{{ item.user[0].use }}
+									{{ item.likesNum }}
+									<text class="cuIcon-share margin-lr-xs"></text>
+									{{ item.commentNum }}
 								</view>
 							</view>
 						</view>
@@ -246,7 +249,7 @@
 			getData() {
 				console.log('数据加载');
 				let opts = {
-					url: 'json/project.json',
+					url: 'api/project/list',
 					method: 'get'
 				};
 				uni.showLoading({
@@ -257,7 +260,9 @@
 					uni.hideLoading();
 					if (res.statusCode == 200) {
 						this.projectList = res.data.data;
-					} else {}
+					} else {
+						this.projectList = [];
+					}
 				});
 			},
 			scroll: function(e) {
@@ -287,15 +292,66 @@
 			},
 			goProject(id) {
 				uni.navigateTo({
-					url: '../project/project?proId=' + id
+					url: '../project/project?id=' + id
 				});
 			},
 			goVideo() {
 				uni.navigateTo({
 					url: '../video'
 				});
+			},
+			goAboutUs(){
+				uni.navigateTo({
+					url: '../me/about_us'
+				})
 			}
-		}
+		},
+		filters: {
+			formatDate(value) {
+				if (value == undefined) {
+					return;
+				}
+				// let date = new Date(value * 1000);
+				let date = new Date(value);
+				//时间戳为10位需*1000，时间戳为13位的话不需乘1000
+				let y = date.getFullYear();
+				let MM = date.getMonth() + 1;
+				MM = MM < 10 ? ('0' + MM) : MM; //月补0
+				let d = date.getDate();
+				d = d < 10 ? ('0' + d) : d; //天补0
+				let h = date.getHours();
+				h = h < 10 ? ('0' + h) : h; //小时补0
+				let m = date.getMinutes();
+				m = m < 10 ? ('0' + m) : m; //分钟补0
+				let s = date.getSeconds();
+				s = s < 10 ? ('0' + s) : s; //秒补0
+				// return y + '-' + MM + '-' + d; //年月日	 + ' ' + h + ':' + m
+				return y + '-' + MM + '-' + d; //年月日时分秒
+			},
+			typeF(value) {
+				if (!value) {
+					return;
+				}
+				if(value == 2){
+					return 'Gitee开源'
+				}
+				if(value == 3){
+					return '可商用'
+				}
+				if(value == 4){
+					return '商业项目'
+				}
+				if(value == 5){
+					return '付费模板'
+				}
+				if(value == 6){
+					return '仅供参考'
+				}
+				if(value == 7){
+					return '其他类型'
+				}
+			}
+		},
 	};
 </script>
 <style lang="scss" scoped>
@@ -305,6 +361,12 @@
 
 	.swiper-item {
 		height: 100%;
+	}
+	.jn_img{
+		width: 700rpx;
+		display: block;
+		margin: 15rpx auto;
+		border-radius: 20rpx;
 	}
 
 	.message-box {
