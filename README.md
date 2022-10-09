@@ -74,6 +74,7 @@
 
 
 ### 部分截图
+<img src="https://cdn.zhoukaiwen.com/FotoJet0.jpg" width="100%" />
 <img src="https://zhoukaiwen.com/img/Design/app/FotoJetHy.jpg" width="100%" />
 <img src="https://zhoukaiwen.com/img/Design/app/FotoJet11.jpg" width="100%" />
 <img src="https://zhoukaiwen.com/img/Design/app/FotoJet1.jpg" width="100%" />
