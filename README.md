@@ -206,12 +206,12 @@
 <p>1、2、3群人数已500满，进群可扫下方二维码</p>
 <p>已加入大佬：naive-ui-admin啊俊、图鸟-可我会像、TopicQ作者等等前后端全栈大佬</p>
 <p>
-<img src="https://zhoukaiwen.com/img/WechatIMG1320.jpeg" width="33%" />
-<img src="https://cdn.zhoukaiwen.com/qdpz_jt2.jpg" width="33%" />
-<img src="https://cdn.zhoukaiwen.com/qdpz_jt3.jpg" width="33%" />
+<img src="https://zhoukaiwen.com/img/WechatIMG1320.jpeg" width="30" />
+<img src="https://cdn.zhoukaiwen.com/qdpz_jt2.jpg" width="30%" />
+<img src="https://cdn.zhoukaiwen.com/qdpz_jt3.jpg" width="30%" />
 </p>
 <p>
-<img src="https://cdn.zhoukaiwen.com/jq4_13002749.jpg" width="33%" />
+<img src="https://cdn.zhoukaiwen.com/jq4_13002749.jpg" width="50%" />
 <!-- <img src="https://cdn.zhoukaiwen.com/xhd_wx.jpg" width="300px" /> -->
 <!-- <img src="https://zhoukaiwen.com/img/kevin_wx_jt.jpg" width="200px" /> -->
 </p>
