@@ -203,18 +203,21 @@
 
 
 ### 「前端铺子」交流群
-<p>一群人数已500人满，大家可扫码加我拉群，请备注：gitee</p>
+<p>1、2、3群人数已500满，进群可扫下方二维码</p>
 <p>已加入大佬：naive-ui-admin啊俊、图鸟-可我会像、TopicQ作者等等前后端全栈大佬</p>
 <p>
-<img src="https://zhoukaiwen.com/img/WechatIMG1320.jpeg" width="200px" />
-<img src="https://cdn.zhoukaiwen.com/qdpz_jt2.jpg" width="200px" />
+<img src="https://zhoukaiwen.com/img/WechatIMG1320.jpeg" width="33%" />
+<img src="https://cdn.zhoukaiwen.com/qdpz_jt2.jpg" width="33%" />
+<img src="https://cdn.zhoukaiwen.com/qdpz_jt3.jpg" width="33%" />
+</p>
+<p>
+<img src="https://cdn.zhoukaiwen.com/jq4_13002749.jpg" width="33%" />
 <!-- <img src="https://cdn.zhoukaiwen.com/xhd_wx.jpg" width="300px" /> -->
-<img src="https://zhoukaiwen.com/img/kevin_wx_jt.jpg" width="200px" />
-
+<!-- <img src="https://zhoukaiwen.com/img/kevin_wx_jt.jpg" width="200px" /> -->
 </p>
 
 ### 赞助作者
 > *  打赏就duck不必啦～ 就点点🌟 Star 🌟 关注更新，支持下作者就可以了
 
-### 有项目、设计、其他方面需求合作，可以联系微信：
-> *  280224091（请备注：合作/需求/设计/等）
+### 有项目、设计、购买会员等其他方面合作，联系微信：
+> *  280224091（请备注：合作/需求/设计/购买会员 等）
