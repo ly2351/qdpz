@@ -51,7 +51,7 @@
 			<view class="page-box" v-if="newsList.length < 1">
 				<view>
 					<view class="centre">
-						<image src="https://cos.qhskis.com/kevin_7ny/noData1.png" mode="widthFix"></image>
+						<image src="https://cdn.zhoukaiwen.com/noData1.png" mode="widthFix"></image>
 						<view class="explain">
 							暂无数据
 							<view class="tips">可以去看看有其他</view>

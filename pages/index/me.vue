@@ -71,17 +71,17 @@
 		<block>
 			<view class='padding flex text-center text-grey bg-white shadow-warp-my'>
 				<view class='flex flex-sub flex-direction solid-right'>
-					<view class="text-xxl text-orange">18.6k+</view>
+					<view class="text-xxl text-orange">35.6k+</view>
 					<view class="margin-top-sm">
 						<text class='cuIcon-hot'></text> 访客</view>
 				</view>
 				<view class='flex flex-sub flex-direction solid-right'>
-					<view class="text-xxl text-blue">10.6k</view>
+					<view class="text-xxl text-blue">15.6k</view>
 					<view class="margin-top-sm">
 						<text class='cuIcon-share'></text> 分享</view>
 				</view>
 				<view class='flex flex-sub flex-direction'>
-					<view class="text-xxl text-red">3.1k+</view>
+					<view class="text-xxl text-red">5.5k+</view>
 					<view class="margin-top-sm">
 						<text class='cuIcon-like'></text> 点赞</view>
 				</view>
