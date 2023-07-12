@@ -197,6 +197,11 @@
 						color: ''
 					},
 					{
+						title: 'finance/index',
+						name: '金融量化页',
+						color: ''
+					},
+					{
 						title: 'search',
 						name: '便捷查询',
 						color: ''
@@ -858,7 +863,7 @@
 
 	.bg-kuxuan11 {
 		color: #fff;
-		background-color: #00c4fb;
+		background-color: #BC78EC;
 	}
 
 	.bg-kuxuan12 {
@@ -877,5 +882,9 @@
 	.bg-kuxuan15 {
 		color: #fff;
 		background-color: #8DC63F;
+	}
+	.bg-kuxuan16 {
+		color: #fff;
+		background-color: #00c4fb;
 	}
 </style>

@@ -267,6 +267,20 @@
 					}
 				},
 				{
+					"path": "finance/index",
+					"style": {
+						"navigationStyle": "custom",
+						"navigationBarTitleText": "金融量化页面"
+					}
+				},
+				{
+					"path": "finance/detail",
+					"style": {
+						"navigationStyle": "custom",
+						"navigationBarTitleText": "金融量化详情"
+					}
+				},
+				{
 					"path": "timetables",
 					"style": {
 						"navigationStyle": "custom",
