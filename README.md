@@ -210,8 +210,10 @@
 <img src="https://cdn.zhoukaiwen.com/qdpz_jt2.jpg" width="30%" />
 <img src="https://cdn.zhoukaiwen.com/qdpz_jt3.jpg" width="30%" />
 </p>
+
 <p>
 <img src="https://cdn.zhoukaiwen.com/wx_kevin.jpg" width="50%" />
+<img src="https://cdn.zhoukaiwen.com/qdpzDy2.jpg" width="50%" />
 <!-- <img src="https://cdn.zhoukaiwen.com/jq4_13002750.jpg" width="50%" /> -->
 <!-- <img src="https://cdn.zhoukaiwen.com/xhd_wx.jpg" width="50%" /> -->
 </p>
