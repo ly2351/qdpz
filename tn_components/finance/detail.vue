@@ -1,7 +1,7 @@
 <template>
 	<view class="container" style="background-color: white;">
 		<view class="topBox">
-			<image class="topImg" src="../../static/banner-bg.d26093a6.png" mode="widthFix"></image>
+			<image class="topImg" src="https://cdn.zhoukaiwen.com/banner-bg.d26093a6.png" mode="widthFix"></image>
 			<cu-custom :isBack="true" bgColor="bg-shadeTop text-white" style="position: fixed; z-index: 9999999;">
 				<block slot="backText">返回</block>
 				<block slot="content"></block>
