@@ -207,7 +207,7 @@
 <p>1、2、3群人数已500满，进群可扫下方微信二维码</p>
 <p>已加入大佬：naive-ui-admin啊俊、图鸟-可我会像、TopicQ作者等等前后端全栈大佬</p>
 <p>
-<img src="https://cdn.zhoukaiwen.com/wxq1_4.jpg" width="100%"/>
+<img src="https://cdn.zhoukaiwen.com/wxq1_4-2.jpg" width="100%"/>
 </p>
 
 <p>
