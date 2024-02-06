@@ -212,7 +212,7 @@
 
 <p>
 <p>⚠ 扫码进新群！！！！</p>
-<img src="https://cdn.zhoukaiwen.com/5qunewm_211557.jpg" width="50%"/>
+<img src="https://cdn.zhoukaiwen.com/5q_ewm5aa1847.jpg" width="50%"/>
 </p>
 
 <p>关注 前端铺子官方抖音，有机会免费获得会员组件！</p>
