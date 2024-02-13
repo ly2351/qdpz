@@ -204,15 +204,15 @@
 
 
 ### 「前端铺子」交流群
-<p>1、2、3群人数已500满，进群可扫下方微信二维码</p>
+<p>1、2、3、4群人数已500满，进群可扫下方微信二维码</p>
 <p>已加入大佬：naive-ui-admin啊俊、图鸟-可我会像、TopicQ作者等等前后端全栈大佬</p>
 <p>
 <img src="https://cdn.zhoukaiwen.com/wxq1_4-2.jpg" width="100%"/>
 </p>
 
 <p>
-<p>⚠ 扫码进新群！！！！</p>
-<img src="https://cdn.zhoukaiwen.com/5q_ewm5aa1847.jpg" width="50%"/>
+<p>⚠ 扫码进新群！！！！扫码进新群！！！！扫码进新群！！！！</p>
+<img src="https://cdn.zhoukaiwen.com/5q_ewm14022925.jpg" width="50%"/>
 </p>
 
 <p>关注 前端铺子官方抖音，有机会免费获得会员组件！</p>
