@@ -121,7 +121,7 @@
 <img src="https://zhoukaiwen.com/img/Design/app/FotoJet12.jpg" width="100%" />
 <img src="https://zhoukaiwen.com/img/Design/app/FotoJet13.jpg" width="100%" />
 <img src="https://cdn.zhoukaiwen.com/FotoJet13.jpg" width="100%" />
-
+<img src="https://cdn.zhoukaiwen.com/dxy_jt_banner.jpg" width="100%" />
 
 
 ### 目录说明（开源版本）
