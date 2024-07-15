@@ -9,7 +9,7 @@
 		<add-tip :tip="tip" :duration="duration" />
 
 		<!-- banner图 -->
-		<!-- <view class="uni-padding-wrap">
+		<view class="uni-padding-wrap">
 			<view class="page-section swiper">
 				<view class="page-section-spacing">
 					<swiper class="swiper" circular="true" indicator-dots="true" autoplay="true" interval="3500"
@@ -22,10 +22,10 @@
 					</swiper>
 				</view>
 			</view>
-		</view> -->
+		</view>
 		
 		<!-- 流量主-腾讯广告 -->
-		<ad unit-id="adunit-961458988ac9ad8b" ad-intervals="30"></ad>
+		<!-- <ad unit-id="adunit-961458988ac9ad8b" ad-intervals="30"></ad> -->
 
 		<!-- 导航栏 -->
 		<view class="cu-list grid solids-bottom col-4 no-border">

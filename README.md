@@ -28,6 +28,7 @@
 </br></br>
 ### 扫码体验
 <img src="https://cdn.zhoukaiwen.com/qdpz_ewm.png" width="100%" />
+<p>关注 前端铺子公众号，关注自动发会员组件下载暗号~（定期更新）及抽奖活动！</p>
 
 ### 文档地址
 [点击查看详细说明文档，一定要仔细看哦～](http://qdpz.zhoukaiwen.com/)
@@ -104,6 +105,7 @@
 ### 部分截图
 <img src="https://cdn.zhoukaiwen.com/FotoJet0.jpg" width="100%" />
 <img src="https://zhoukaiwen.com/img/Design/app/FotoJetHy.jpg" width="100%" />
+<img src="https://cdn.zhoukaiwen.com/gameBgImg.jpg" width="100%" />
 <img src="https://cdn.zhoukaiwen.com/dtB1.jpg" width="100%" />
 <img src="https://cdn.zhoukaiwen.com/dtB2.jpg" width="100%" />
 <img src="https://cdn.zhoukaiwen.com/dtB3.jpg" width="100%" />
@@ -237,20 +239,20 @@
 
 
 ### 「前端铺子」交流群
-<p>1、2、3、4群人数已500满，进群可扫下方微信二维码</p>
+<p>1-5群人数已500满，进群可扫下方微信二维码</p>
 <p>已加入大佬：naive-ui-admin啊俊、图鸟-可我会像、TopicQ作者等等前后端全栈大佬</p>
 <p>
 <img src="https://cdn.zhoukaiwen.com/wxq1_4-2.jpg" width="100%"/>
 </p>
 
-<!-- <p>
-<p>⚠ 扫码进新群！！！！扫码进新群！！！！扫码进新群！！！！</p>
-<img src="https://cdn.zhoukaiwen.com/5q_20240304.jpg" width="50%"/>
-</p> -->
-<p>⚠ 群聊人数多，加群需要微信邀请！作者微信：280224091（备注：进群）</p>
-<p>关注 前端铺子官方抖音，关注就自动发会员组件下载地址（随机）每周抽奖活动！</p>
 <p>
-<img src="https://cdn.zhoukaiwen.com/wx_dy.jpg" width="100%" />
+<p>⚠ 扫码进新群！！！！扫码进新群！！！！扫码进新群！！！！</p>
+<img src="https://cdn.zhoukaiwen.com/qdpz_qun6_0722.jpg" width="50%"/>
+</p>
+<p>⚠ 群聊人数多，加大群需要微信邀请！作者微信：280224091（备注：进群）</p>
+
+<p>
+<img src="https://www.zhoukaiwen.com/img/kevinWechat.jpeg" width="50%" />
 <!-- <img src="https://cdn.zhoukaiwen.com/jq4_13002750.jpg" width="50%" /> -->
 <!-- <img src="https://cdn.zhoukaiwen.com/xhd_wx.jpg" width="50%" /> -->
 </p>
