@@ -247,7 +247,7 @@
 
 <p>
 <p>⚠ 扫码进新群！！！！扫码进新群！！！！扫码进新群！！！！</p>
-<img src="https://cdn.zhoukaiwen.com/qdpz_qun6_0722.jpg" width="50%"/>
+<img src="https://cdn.zhoukaiwen.com/cffaadb796c23e8fadd414c2741d15f.jpg" width="50%"/>
 </p>
 <p>⚠ 群聊人数多，加大群需要微信邀请！作者微信：280224091（备注：进群）</p>
 
